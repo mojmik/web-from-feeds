@@ -1,0 +1,421 @@
+26-06-2021 02:21:51 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:21:51 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:21:51 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+26-06-2021 02:21:51 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+26-06-2021 02:21:52 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:21:52 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:21:52 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+26-06-2021 02:21:53 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+26-06-2021 02:21:53 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:21:53 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:21:54 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+26-06-2021 02:21:54 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+26-06-2021 02:23:10 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:23:10 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:23:11 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+26-06-2021 02:23:11 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+26-06-2021 02:23:11 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:23:11 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:23:12 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+26-06-2021 02:23:12 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+26-06-2021 02:23:13 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:23:13 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:23:13 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+26-06-2021 02:23:13 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+26-06-2021 02:24:34 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:24:34 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:24:34 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+26-06-2021 02:24:34 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+26-06-2021 02:24:35 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:24:35 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:24:36 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+26-06-2021 02:24:36 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+26-06-2021 02:24:36 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:24:36 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:24:37 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+26-06-2021 02:24:37 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+26-06-2021 02:25:23 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:23 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:24 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+26-06-2021 02:25:24 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+26-06-2021 02:25:24 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:24 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:25 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+26-06-2021 02:25:25 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+26-06-2021 02:25:26 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:26 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:26 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+26-06-2021 02:25:26 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+26-06-2021 02:25:29 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:29 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:30 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+26-06-2021 02:25:30 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+26-06-2021 02:25:31 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:31 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:31 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+26-06-2021 02:25:31 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+26-06-2021 02:25:32 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:32 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:32 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+26-06-2021 02:25:32 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+26-06-2021 02:25:39 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:39 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:40 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+26-06-2021 02:25:40 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+26-06-2021 02:25:40 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:41 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:41 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+26-06-2021 02:25:41 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+26-06-2021 02:25:42 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:42 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+26-06-2021 02:25:42 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+26-06-2021 02:25:42 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+28-06-2021 08:21:29 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:21:29 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:21:29 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+28-06-2021 08:21:29 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+28-06-2021 08:21:30 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:21:30 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:21:30 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+28-06-2021 08:21:30 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+28-06-2021 08:21:31 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:21:31 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:21:31 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+28-06-2021 08:21:31 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+28-06-2021 08:22:58 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:22:58 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:23:15 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:23:15 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:23:15 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+28-06-2021 08:23:15 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+28-06-2021 08:23:16 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:23:16 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+28-06-2021 08:23:16 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+28-06-2021 08:23:16 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+28-06-2021 08:25:31 CREATE TABLE wp_mauta_csvtab (
+		  id mediumint(9) NOT NULL AUTO_INCREMENT,
+		  `PROGRAM_NAME,PROGRAM_URL,CATALOG_NAME,LAST_UPDATED,ID,TITLE,DESCRIPTION,LINK,IMPRESSION_URL,IMAGE_LINK,MOBILE_LINK,ADDITIONAL_IMAGE_LINK,AVAILABILITY,AVAILABILITY_DATE,EXPIRATION_DATE,PRICE,SALE_PRICE,SALE_PRICE_EFFECTIVE_DATE,UNIT_PRICING_MEASURE,UNIT_PRICING_BASE_MEASURE,INSTALLMENT,LOYALTY_POINTS,GOOGLE_PRODUCT_CATEGORY,GOOGLE_PRODUCT_CATEGORY_NAME,PRODUCT_TYPE,BRAND,GTIN,MPN,IDENTIFIER_EXISTS,CONDITION,ADULT,MULTIPACK,IS_BUNDLE,ENERGY_EFFICIENCY_CLASS,AGE_GROUP,COLOR,GENDER,MATERIAL,PATTERN,SIZE,SIZE_TYPE,SIZE_SYSTEM,ITEM_GROUP_ID,CUSTOM_LABEL_0,CUSTOM_LABEL_1,CUSTOM_LABEL_2,CUSTOM_LABEL_3,CUSTOM_LABEL_4,PROMOTION_ID,SHIPPING_LABEL,SHIPPING_WEIGHT,SHIPPING_LENGTH,SHIPPING_WIDTH,SHIPPING_HEIGHT,MIN_HANDLING_TIME,MAX_HANDLING_TIME,SHIPPING(COUNTRY:REGION:SERVICE:PRICE),SHIPPING(COUNTRY:POSTAL_CODE:SERVICE:PRICE),SHIPPING(COUNTRY:LOCATION_ID:SERVICE:PRICE),SHIPPING(COUNTRY:LOCATION_GROUP_NAME:SERVICE:PRICE),TAX(RATE:COUNTRY:TAX_SHIP:REGION),TAX(RATE:COUNTRY:TAX_SHIP:POSTAL_CODE),TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_ID),TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_GROUP_NAME)` text,
+		  PRIMARY KEY  (id)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+28-06-2021 08:43:50 CREATE TABLE wp_mauta_csvtab (
+		  id mediumint(9) NOT NULL AUTO_INCREMENT,
+		  `PROGRAM_NAME` text,`PROGRAM_URL` text,`CATALOG_NAME` text,`LAST_UPDATED` text,`ID` text,`TITLE` text,`DESCRIPTION` text,`LINK` text,`IMPRESSION_URL` text,`IMAGE_LINK` text,`MOBILE_LINK` text,`ADDITIONAL_IMAGE_LINK` text,`AVAILABILITY` text,`AVAILABILITY_DATE` text,`EXPIRATION_DATE` text,`PRICE` text,`SALE_PRICE` text,`SALE_PRICE_EFFECTIVE_DATE` text,`UNIT_PRICING_MEASURE` text,`UNIT_PRICING_BASE_MEASURE` text,`INSTALLMENT` text,`LOYALTY_POINTS` text,`GOOGLE_PRODUCT_CATEGORY` text,`GOOGLE_PRODUCT_CATEGORY_NAME` text,`PRODUCT_TYPE` text,`BRAND` text,`GTIN` text,`MPN` text,`IDENTIFIER_EXISTS` text,`CONDITION` text,`ADULT` text,`MULTIPACK` text,`IS_BUNDLE` text,`ENERGY_EFFICIENCY_CLASS` text,`AGE_GROUP` text,`COLOR` text,`GENDER` text,`MATERIAL` text,`PATTERN` text,`SIZE` text,`SIZE_TYPE` text,`SIZE_SYSTEM` text,`ITEM_GROUP_ID` text,`CUSTOM_LABEL_0` text,`CUSTOM_LABEL_1` text,`CUSTOM_LABEL_2` text,`CUSTOM_LABEL_3` text,`CUSTOM_LABEL_4` text,`PROMOTION_ID` text,`SHIPPING_LABEL` text,`SHIPPING_WEIGHT` text,`SHIPPING_LENGTH` text,`SHIPPING_WIDTH` text,`SHIPPING_HEIGHT` text,`MIN_HANDLING_TIME` text,`MAX_HANDLING_TIME` text,`SHIPPING(COUNTRY:REGION:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:POSTAL_CODE:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_ID:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_GROUP_NAME:SERVICE:PRICE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:REGION)` text,`TAX(RATE:COUNTRY:TAX_SHIP:POSTAL_CODE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_ID)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_GROUP_NAME)` text,
+		  PRIMARY KEY  (id)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+28-06-2021 08:45:41 CREATE TABLE wp_mauta_csvtab (
+		  id mediumint(9) NOT NULL AUTO_INCREMENT,
+		  `PROGRAM_NAME` text,`PROGRAM_URL` text,`CATALOG_NAME` text,`LAST_UPDATED` text,`ID` text,`TITLE` text,`DESCRIPTION` text,`LINK` text,`IMPRESSION_URL` text,`IMAGE_LINK` text,`MOBILE_LINK` text,`ADDITIONAL_IMAGE_LINK` text,`AVAILABILITY` text,`AVAILABILITY_DATE` text,`EXPIRATION_DATE` text,`PRICE` text,`SALE_PRICE` text,`SALE_PRICE_EFFECTIVE_DATE` text,`UNIT_PRICING_MEASURE` text,`UNIT_PRICING_BASE_MEASURE` text,`INSTALLMENT` text,`LOYALTY_POINTS` text,`GOOGLE_PRODUCT_CATEGORY` text,`GOOGLE_PRODUCT_CATEGORY_NAME` text,`PRODUCT_TYPE` text,`BRAND` text,`GTIN` text,`MPN` text,`IDENTIFIER_EXISTS` text,`CONDITION` text,`ADULT` text,`MULTIPACK` text,`IS_BUNDLE` text,`ENERGY_EFFICIENCY_CLASS` text,`AGE_GROUP` text,`COLOR` text,`GENDER` text,`MATERIAL` text,`PATTERN` text,`SIZE` text,`SIZE_TYPE` text,`SIZE_SYSTEM` text,`ITEM_GROUP_ID` text,`CUSTOM_LABEL_0` text,`CUSTOM_LABEL_1` text,`CUSTOM_LABEL_2` text,`CUSTOM_LABEL_3` text,`CUSTOM_LABEL_4` text,`PROMOTION_ID` text,`SHIPPING_LABEL` text,`SHIPPING_WEIGHT` text,`SHIPPING_LENGTH` text,`SHIPPING_WIDTH` text,`SHIPPING_HEIGHT` text,`MIN_HANDLING_TIME` text,`MAX_HANDLING_TIME` text,`SHIPPING(COUNTRY:REGION:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:POSTAL_CODE:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_ID:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_GROUP_NAME:SERVICE:PRICE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:REGION)` text,`TAX(RATE:COUNTRY:TAX_SHIP:POSTAL_CODE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_ID)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_GROUP_NAME)` text,
+		  PRIMARY KEY  (id)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+28-06-2021 08:47:08 CREATE TABLE wp_mauta_csvtab (
+		  id mediumint(9) NOT NULL AUTO_INCREMENT,
+		  `PROGRAM_NAME` text,`PROGRAM_URL` text,`CATALOG_NAME` text,`LAST_UPDATED` text,`ID` text,`TITLE` text,`DESCRIPTION` text,`LINK` text,`IMPRESSION_URL` text,`IMAGE_LINK` text,`MOBILE_LINK` text,`ADDITIONAL_IMAGE_LINK` text,`AVAILABILITY` text,`AVAILABILITY_DATE` text,`EXPIRATION_DATE` text,`PRICE` text,`SALE_PRICE` text,`SALE_PRICE_EFFECTIVE_DATE` text,`UNIT_PRICING_MEASURE` text,`UNIT_PRICING_BASE_MEASURE` text,`INSTALLMENT` text,`LOYALTY_POINTS` text,`GOOGLE_PRODUCT_CATEGORY` text,`GOOGLE_PRODUCT_CATEGORY_NAME` text,`PRODUCT_TYPE` text,`BRAND` text,`GTIN` text,`MPN` text,`IDENTIFIER_EXISTS` text,`CONDITION` text,`ADULT` text,`MULTIPACK` text,`IS_BUNDLE` text,`ENERGY_EFFICIENCY_CLASS` text,`AGE_GROUP` text,`COLOR` text,`GENDER` text,`MATERIAL` text,`PATTERN` text,`SIZE` text,`SIZE_TYPE` text,`SIZE_SYSTEM` text,`ITEM_GROUP_ID` text,`CUSTOM_LABEL_0` text,`CUSTOM_LABEL_1` text,`CUSTOM_LABEL_2` text,`CUSTOM_LABEL_3` text,`CUSTOM_LABEL_4` text,`PROMOTION_ID` text,`SHIPPING_LABEL` text,`SHIPPING_WEIGHT` text,`SHIPPING_LENGTH` text,`SHIPPING_WIDTH` text,`SHIPPING_HEIGHT` text,`MIN_HANDLING_TIME` text,`MAX_HANDLING_TIME` text,`SHIPPING(COUNTRY:REGION:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:POSTAL_CODE:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_ID:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_GROUP_NAME:SERVICE:PRICE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:REGION)` text,`TAX(RATE:COUNTRY:TAX_SHIP:POSTAL_CODE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_ID)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_GROUP_NAME)` text,
+		  PRIMARY KEY  (id)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+28-06-2021 08:52:35 CREATE TABLE wp_mauta_csvtab (
+		  id mediumint(9) NOT NULL AUTO_INCREMENT,
+		  `PROGRAM_NAME` text,`PROGRAM_URL` text,`CATALOG_NAME` text,`LAST_UPDATED` text,`ID` text,`TITLE` text,`DESCRIPTION` text,`LINK` text,`IMPRESSION_URL` text,`IMAGE_LINK` text,`MOBILE_LINK` text,`ADDITIONAL_IMAGE_LINK` text,`AVAILABILITY` text,`AVAILABILITY_DATE` text,`EXPIRATION_DATE` text,`PRICE` text,`SALE_PRICE` text,`SALE_PRICE_EFFECTIVE_DATE` text,`UNIT_PRICING_MEASURE` text,`UNIT_PRICING_BASE_MEASURE` text,`INSTALLMENT` text,`LOYALTY_POINTS` text,`GOOGLE_PRODUCT_CATEGORY` text,`GOOGLE_PRODUCT_CATEGORY_NAME` text,`PRODUCT_TYPE` text,`BRAND` text,`GTIN` text,`MPN` text,`IDENTIFIER_EXISTS` text,`CONDITION` text,`ADULT` text,`MULTIPACK` text,`IS_BUNDLE` text,`ENERGY_EFFICIENCY_CLASS` text,`AGE_GROUP` text,`COLOR` text,`GENDER` text,`MATERIAL` text,`PATTERN` text,`SIZE` text,`SIZE_TYPE` text,`SIZE_SYSTEM` text,`ITEM_GROUP_ID` text,`CUSTOM_LABEL_0` text,`CUSTOM_LABEL_1` text,`CUSTOM_LABEL_2` text,`CUSTOM_LABEL_3` text,`CUSTOM_LABEL_4` text,`PROMOTION_ID` text,`SHIPPING_LABEL` text,`SHIPPING_WEIGHT` text,`SHIPPING_LENGTH` text,`SHIPPING_WIDTH` text,`SHIPPING_HEIGHT` text,`MIN_HANDLING_TIME` text,`MAX_HANDLING_TIME` text,`SHIPPING(COUNTRY:REGION:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:POSTAL_CODE:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_ID:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_GROUP_NAME:SERVICE:PRICE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:REGION)` text,`TAX(RATE:COUNTRY:TAX_SHIP:POSTAL_CODE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_ID)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_GROUP_NAME)` text,
+		  PRIMARY KEY  (id)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+28-06-2021 08:53:33 CREATE TABLE wp_mauta_csvtab (
+		  
+		  `PROGRAM_NAME` text,`PROGRAM_URL` text,`CATALOG_NAME` text,`LAST_UPDATED` text,`ID` text,`TITLE` text,`DESCRIPTION` text,`LINK` text,`IMPRESSION_URL` text,`IMAGE_LINK` text,`MOBILE_LINK` text,`ADDITIONAL_IMAGE_LINK` text,`AVAILABILITY` text,`AVAILABILITY_DATE` text,`EXPIRATION_DATE` text,`PRICE` text,`SALE_PRICE` text,`SALE_PRICE_EFFECTIVE_DATE` text,`UNIT_PRICING_MEASURE` text,`UNIT_PRICING_BASE_MEASURE` text,`INSTALLMENT` text,`LOYALTY_POINTS` text,`GOOGLE_PRODUCT_CATEGORY` text,`GOOGLE_PRODUCT_CATEGORY_NAME` text,`PRODUCT_TYPE` text,`BRAND` text,`GTIN` text,`MPN` text,`IDENTIFIER_EXISTS` text,`CONDITION` text,`ADULT` text,`MULTIPACK` text,`IS_BUNDLE` text,`ENERGY_EFFICIENCY_CLASS` text,`AGE_GROUP` text,`COLOR` text,`GENDER` text,`MATERIAL` text,`PATTERN` text,`SIZE` text,`SIZE_TYPE` text,`SIZE_SYSTEM` text,`ITEM_GROUP_ID` text,`CUSTOM_LABEL_0` text,`CUSTOM_LABEL_1` text,`CUSTOM_LABEL_2` text,`CUSTOM_LABEL_3` text,`CUSTOM_LABEL_4` text,`PROMOTION_ID` text,`SHIPPING_LABEL` text,`SHIPPING_WEIGHT` text,`SHIPPING_LENGTH` text,`SHIPPING_WIDTH` text,`SHIPPING_HEIGHT` text,`MIN_HANDLING_TIME` text,`MAX_HANDLING_TIME` text,`SHIPPING(COUNTRY:REGION:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:POSTAL_CODE:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_ID:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_GROUP_NAME:SERVICE:PRICE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:REGION)` text,`TAX(RATE:COUNTRY:TAX_SHIP:POSTAL_CODE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_ID)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_GROUP_NAME)` text,
+		  PRIMARY KEY  (id)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+28-06-2021 09:00:54 CREATE TABLE wp_mauta_csvtab (
+		  id mediumint(9) NOT NULL AUTO_INCREMENT,
+		  `PROGRAM_NAME` text,`PROGRAM_URL` text,`CATALOG_NAME` text,`LAST_UPDATED` text,`original_id_from_csv` text,`TITLE` text,`DESCRIPTION` text,`LINK` text,`IMPRESSION_URL` text,`IMAGE_LINK` text,`MOBILE_LINK` text,`ADDITIONAL_IMAGE_LINK` text,`AVAILABILITY` text,`AVAILABILITY_DATE` text,`EXPIRATION_DATE` text,`PRICE` text,`SALE_PRICE` text,`SALE_PRICE_EFFECTIVE_DATE` text,`UNIT_PRICING_MEASURE` text,`UNIT_PRICING_BASE_MEASURE` text,`INSTALLMENT` text,`LOYALTY_POINTS` text,`GOOGLE_PRODUCT_CATEGORY` text,`GOOGLE_PRODUCT_CATEGORY_NAME` text,`PRODUCT_TYPE` text,`BRAND` text,`GTIN` text,`MPN` text,`IDENTIFIER_EXISTS` text,`CONDITION` text,`ADULT` text,`MULTIPACK` text,`IS_BUNDLE` text,`ENERGY_EFFICIENCY_CLASS` text,`AGE_GROUP` text,`COLOR` text,`GENDER` text,`MATERIAL` text,`PATTERN` text,`SIZE` text,`SIZE_TYPE` text,`SIZE_SYSTEM` text,`ITEM_GROUP_ID` text,`CUSTOM_LABEL_0` text,`CUSTOM_LABEL_1` text,`CUSTOM_LABEL_2` text,`CUSTOM_LABEL_3` text,`CUSTOM_LABEL_4` text,`PROMOTION_ID` text,`SHIPPING_LABEL` text,`SHIPPING_WEIGHT` text,`SHIPPING_LENGTH` text,`SHIPPING_WIDTH` text,`SHIPPING_HEIGHT` text,`MIN_HANDLING_TIME` text,`MAX_HANDLING_TIME` text,`SHIPPING(COUNTRY:REGION:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:POSTAL_CODE:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_ID:SERVICE:PRICE)` text,`SHIPPING(COUNTRY:LOCATION_GROUP_NAME:SERVICE:PRICE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:REGION)` text,`TAX(RATE:COUNTRY:TAX_SHIP:POSTAL_CODE)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_ID)` text,`TAX(RATE:COUNTRY:TAX_SHIP:LOCATION_GROUP_NAME)` text,
+		  PRIMARY KEY  (id)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+29-06-2021 08:30:59 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+29-06-2021 08:30:59 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+29-06-2021 08:31:00 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+29-06-2021 08:31:00 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+29-06-2021 08:31:00 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+29-06-2021 08:31:00 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+29-06-2021 08:31:01 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+29-06-2021 08:31:01 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+29-06-2021 08:31:02 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+29-06-2021 08:31:02 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+29-06-2021 08:31:02 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+29-06-2021 08:31:02 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\wpcustomajaxfilters/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+08-07-2021 08:15:46 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:15:46 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:15:46 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 08:15:46 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 08:15:47 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:15:47 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:15:48 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 08:15:48 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 08:15:49 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:15:49 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:15:49 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 08:15:49 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+08-07-2021 08:17:31 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:17:31 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:17:32 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 08:17:32 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 08:17:32 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:17:32 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:17:33 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 08:17:33 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 08:17:33 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:17:33 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:17:34 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+08-07-2021 08:17:34 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 08:19:19 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:19:19 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:19:20 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 08:19:20 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 08:19:21 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:19:21 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:19:21 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 08:19:21 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 08:19:22 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:19:22 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:19:22 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+08-07-2021 08:19:22 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 08:20:26 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:20:26 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:20:26 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 08:20:26 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 08:20:27 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:20:27 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:20:27 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 08:20:27 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 08:20:28 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:20:28 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:20:28 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 08:20:29 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+08-07-2021 08:22:58 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:22:58 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:22:58 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 08:22:58 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 08:22:59 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:22:59 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:22:59 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 08:22:59 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 08:23:00 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:23:00 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 08:23:00 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 08:23:01 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+08-07-2021 12:57:55 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:57:55 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:57:55 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 12:57:55 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 12:57:56 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:57:56 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:57:57 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 12:57:57 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 12:57:57 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:57:57 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:57:58 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 12:57:58 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 3000
+08-07-2021 12:57:59 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:57:59 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:57:59 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 3500 total: 4000
+08-07-2021 12:57:59 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 3000 total: 3500
+08-07-2021 12:58:00 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:00 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:00 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 4000 total: 4500
+08-07-2021 12:58:00 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 4500 total: 5000
+08-07-2021 12:58:01 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:01 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:02 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 5000 total: 5500
+08-07-2021 12:58:02 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 5500 total: 6000
+08-07-2021 12:58:02 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:02 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:03 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 6000 total: 6500
+08-07-2021 12:58:03 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 6500 total: 7000
+08-07-2021 12:58:04 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:04 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:04 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 7000 total: 7500
+08-07-2021 12:58:04 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 7500 total: 8000
+08-07-2021 12:58:05 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:05 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:05 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 8000 total: 8500
+08-07-2021 12:58:05 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 8500 total: 9000
+08-07-2021 12:58:06 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:06 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:07 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 9000 total: 9500
+08-07-2021 12:58:07 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 9500 total: 10000
+08-07-2021 12:58:08 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:08 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:08 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 10000 total: 10500
+08-07-2021 12:58:08 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 10500 total: 11000
+08-07-2021 12:58:09 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:09 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:09 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 11000 total: 11500
+08-07-2021 12:58:10 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 11500 total: 12000
+08-07-2021 12:58:10 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:10 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:11 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 12000 total: 12500
+08-07-2021 12:58:11 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 12500 total: 13000
+08-07-2021 12:58:12 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:12 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:12 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 13500 total: 14000
+08-07-2021 12:58:12 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 13000 total: 13500
+08-07-2021 12:58:13 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:13 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:13 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 14000 total: 14500
+08-07-2021 12:58:13 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 14500 total: 15000
+08-07-2021 12:58:14 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:14 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:15 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 15500 total: 16000
+08-07-2021 12:58:15 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 15000 total: 15500
+08-07-2021 12:58:16 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:16 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:16 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 16000 total: 16500
+08-07-2021 12:58:16 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 16500 total: 17000
+08-07-2021 12:58:17 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:17 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:17 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 17500 total: 18000
+08-07-2021 12:58:17 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 17000 total: 17500
+08-07-2021 12:58:18 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:18 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:19 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 18500 total: 19000
+08-07-2021 12:58:19 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 18000 total: 18500
+08-07-2021 12:58:20 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:20 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 12:58:20 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 19500 total: 19917
+08-07-2021 12:58:20 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 19000 total: 19500
+08-07-2021 01:03:06 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:03:06 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:03:06 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 01:03:06 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 01:03:07 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:03:07 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:03:07 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 01:03:07 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 01:03:08 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:03:08 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:03:08 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+08-07-2021 01:03:08 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 01:07:21 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:07:21 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:07:22 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 01:07:22 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 01:07:22 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:07:22 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:07:23 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 01:07:23 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 01:07:24 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:07:24 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:07:24 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 2945
+08-07-2021 01:07:24 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/ASKO_NABYTEK_CZ-Asko_nabytekCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 01:09:42 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:42 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:43 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 500 total: 1000
+08-07-2021 01:09:43 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 0 total: 500
+08-07-2021 01:09:44 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:44 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:44 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1500 total: 2000
+08-07-2021 01:09:44 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 1000 total: 1500
+08-07-2021 01:09:45 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:45 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:45 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2500 total: 3000
+08-07-2021 01:09:45 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 2000 total: 2500
+08-07-2021 01:09:46 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:46 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:47 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 3500 total: 4000
+08-07-2021 01:09:47 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 3000 total: 3500
+08-07-2021 01:09:48 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:48 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:48 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 4000 total: 4500
+08-07-2021 01:09:48 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 4500 total: 5000
+08-07-2021 01:09:49 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:49 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:49 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 5000 total: 5500
+08-07-2021 01:09:49 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 5500 total: 6000
+08-07-2021 01:09:50 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:50 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:51 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 6000 total: 6500
+08-07-2021 01:09:51 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 6500 total: 7000
+08-07-2021 01:09:52 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:52 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:52 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 7000 total: 7500
+08-07-2021 01:09:52 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 7500 total: 8000
+08-07-2021 01:09:53 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:53 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:53 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 8500 total: 9000
+08-07-2021 01:09:53 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 8000 total: 8500
+08-07-2021 01:09:54 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:54 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:55 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 9000 total: 9500
+08-07-2021 01:09:55 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 9500 total: 10000
+08-07-2021 01:09:55 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:55 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:56 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 10000 total: 10500
+08-07-2021 01:09:56 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 10500 total: 11000
+08-07-2021 01:09:57 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:57 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:57 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 11000 total: 11500
+08-07-2021 01:09:57 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 11500 total: 12000
+08-07-2021 01:09:58 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:58 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:58 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 12000 total: 12500
+08-07-2021 01:09:58 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 12500 total: 13000
+08-07-2021 01:09:59 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:09:59 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:00 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 13000 total: 13500
+08-07-2021 01:10:00 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 13500 total: 14000
+08-07-2021 01:10:00 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:00 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:01 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 14000 total: 14500
+08-07-2021 01:10:01 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 14500 total: 15000
+08-07-2021 01:10:02 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:02 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:02 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 15000 total: 15500
+08-07-2021 01:10:02 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 15500 total: 16000
+08-07-2021 01:10:03 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:03 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:04 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 16000 total: 16500
+08-07-2021 01:10:04 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 16500 total: 17000
+08-07-2021 01:10:04 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:04 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:05 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 17000 total: 17500
+08-07-2021 01:10:05 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 17500 total: 18000
+08-07-2021 01:10:06 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:06 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:06 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 18000 total: 18500
+08-07-2021 01:10:06 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 18500 total: 19000
+08-07-2021 01:10:07 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:07 about to load csv C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import
+08-07-2021 01:10:07 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 19500 total: 19917
+08-07-2021 01:10:07 csv loaded C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator/DEKORHOME_CZ_SK-DekorhomeCZ_google_all-shopping.txt into wp_mauta_cj_cj_import from: 19000 total: 19500
+08-07-2021 01:27:03 add metabox: cj mauta_cj_title
+08-07-2021 01:27:03 add metabox: cj mauta_cj_shipping
+08-07-2021 01:27:03 add metabox: cj mauta_cj_kw
+08-07-2021 01:27:03 add metabox: cj mauta_cj_type
+08-07-2021 01:27:03 add metabox: cj mauta_cj_gender
+08-07-2021 01:27:03 add metabox: cj mauta_cj_views
+08-07-2021 01:27:03 add metabox: cj mauta_cj_tran
+08-07-2021 01:27:03 add metabox: cj mauta_cj_description
+08-07-2021 01:27:03 add metabox: cj mauta_cj_availability
+08-07-2021 01:27:03 add metabox: cj mauta_cj_id
+08-07-2021 01:27:03 add metabox: cj mauta_cj_shopurl
+08-07-2021 01:27:03 add metabox: cj mauta_cj_brand
+08-07-2021 01:27:03 add metabox: cj mauta_cj_price
+08-07-2021 01:27:03 add metabox: cj mauta_cj_buyurl
+08-07-2021 01:27:03 add metabox: cj mauta_cj_gtin
+08-07-2021 01:27:03 add metabox: cj mauta_cj_mpn
+08-07-2021 01:27:03 add metabox: cj mauta_cj_imageurl
+08-07-2021 01:27:03 add metabox: cj mauta_cj_priceDiscount
+08-07-2021 06:52:36 add metabox: cj mauta_cj_title
+08-07-2021 06:52:36 add metabox: cj mauta_cj_shipping
+08-07-2021 06:52:36 add metabox: cj mauta_cj_kw
+08-07-2021 06:52:36 add metabox: cj mauta_cj_type
+08-07-2021 06:52:36 add metabox: cj mauta_cj_gender
+08-07-2021 06:52:36 add metabox: cj mauta_cj_views
+08-07-2021 06:52:36 add metabox: cj mauta_cj_tran
+08-07-2021 06:52:36 add metabox: cj mauta_cj_description
+08-07-2021 06:52:36 add metabox: cj mauta_cj_availability
+08-07-2021 06:52:36 add metabox: cj mauta_cj_id
+08-07-2021 06:52:36 add metabox: cj mauta_cj_shopurl
+08-07-2021 06:52:36 add metabox: cj mauta_cj_brand
+08-07-2021 06:52:36 add metabox: cj mauta_cj_price
+08-07-2021 06:52:36 add metabox: cj mauta_cj_buyurl
+08-07-2021 06:52:36 add metabox: cj mauta_cj_gtin
+08-07-2021 06:52:36 add metabox: cj mauta_cj_mpn
+08-07-2021 06:52:36 add metabox: cj mauta_cj_imageurl
+08-07-2021 06:52:36 add metabox: cj mauta_cj_priceDiscount
