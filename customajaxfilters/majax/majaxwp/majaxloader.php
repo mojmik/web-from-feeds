@@ -110,7 +110,7 @@ Class MajaxLoader {
                 else $innerShortCodeParams[$p]=$v;
             }
         }
-
+        if (CAF_FORCE_CJ) $this->isCJ=true;
         if (!$this->isMajax) return false;
         $this->postId=isset($_GET['id']) ? filter_var($_GET['id'], FILTER_SANITIZE_STRING) : "";
         $this->aktPage=filter_input( INPUT_GET, "aktPage", FILTER_SANITIZE_NUMBER_INT );

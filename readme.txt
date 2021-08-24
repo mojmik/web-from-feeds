@@ -9,28 +9,29 @@ Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Generate posts and pages from custom content. Either defined manually or though csv import. Fliter with ajax. Blazing fast.
-Custom posts with fields you define. For Comission Junction publishers you are able to create posts automatically from CJ product catalogs. 
+Generate whole website from product feeds in google format (or any other) used by affiliate systems like Commission Junction. Easily customize with simple tempating system. Blazing fast thanks to internal caching system.
 
 == Description ==
 
 Some of features this plugin brings:
-- custom posts
-- custom fields
-- templating system
-- internal caching system
-- multi language option
-- filtering with ajax
+
+- import / bulk import even huge feed files
+- automatically generate categories with product counts
+- store products as custom posts+metas or in dedicated table (for lightning fast filtering)
+- internal caching system for even better performance
+- easy templating system for custom appearance
+- ajax powered loading more products (instead of pagination, next items are loaded when you scroll to the bottom like on Facebook)
+- ajax product filtering
 - ajax processed outside wordpress core for maximum speed
-- content served with php/ajax for best seo results
-- comission junction import and automatic content generation
+- multi language option
 - shortcodes for displaying static/ajax content, categories and brands listing (cj)
 
 Workflow:
 - install plugin
 - visit site setup page in administration
-- setup custom post type options
-- add fields and content manually or import it from csv
+- customize options and templated
+- add fields and content manually or import it from feeds
+- place shortcodes where as you like
 
 
 If interested drop me a message. 

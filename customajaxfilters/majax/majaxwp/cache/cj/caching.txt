@@ -1,1 +1,0 @@
-08-07-2021 06:52:38 cache pruned for C:\wamp64\www\ukeacz\wp-content\plugins\customcontentgenerator\customajaxfilters\majax\majaxwp/cache/cj/

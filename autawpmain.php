@@ -1,10 +1,10 @@
 <?php
    /*
-   Plugin Name: Custom Content Generator
+   Plugin Name: CJ feed content generator
    Plugin URI: https://www.ttj.cz
    description: Adds custom post option, adds custom fields to administration interface v2
   mAuta plugin
-   Version: 2.2a
+   Version: 3.1a
    Author: Mik
    Author URI: https://www.ttj.cz
    License: GPL2
@@ -20,6 +20,9 @@ define('CAF_PLUGIN_FILE_URL', __FILE__);
 define('CAF_SHORT_TITLE', 'CAF' );
 define('CAF_TAB_PREFIX','mauta_');
 define('CAF_ALLOW_ATTACHMENTS',false);
+define('CAF_ALLOW_MIMG',false);
+define('CAF_LOAD_EXTERNAL_UI',false);
+define('CAF_FORCE_CJ',true);
 define('CAF_TEXTDOMAIN',"wpcustomajaxfilters");
 
 

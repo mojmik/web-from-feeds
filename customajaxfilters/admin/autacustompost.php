@@ -22,6 +22,7 @@ class AutaCustomPost {
 		 add_action( 'save_post_'.$postType, [$this,'mauta_save_post'] ); 
 		 add_action( 'wp_ajax_importCSV', [$this,'importCSVprocAjax'] );
 		 $this->autaFields = new AutaFields($this->customPostType);
+		 if (CAF_FORCE_CJ) $specialType="cj";
 		 if ($specialType=="cj") { 
 			 $this->isCj=true;
 			 $this->cj=new ComissionJunction(["postType" => $this->customPostType]); 
@@ -312,7 +313,7 @@ class AutaCustomPost {
 		array_push($setUrl,[__("remove all",CAF_TEXTDOMAIN),add_query_arg( 'do', 'removeall'),__("remove all posts of this type",CAF_TEXTDOMAIN)]);
 		
 		?>
-		<h1>CSV options</h1>
+		<h1>Import options</h1>
 		<ul>
 		<?php	 
 		foreach ($setUrl as $s) { 
@@ -347,13 +348,30 @@ class AutaCustomPost {
 		<div id="mautaCSVimportResults"></div>
 		<?php
 	}
-
+	function dedTableHello() {
+		?>
+		<h1>Dedicated table - <?= $this->plural ?></h1>
+		<?php
+		_e("For dedicated tables, please use import options. Adding/Editing as posts is not implemented.",CAF_TEXTDOMAIN);
+	}
 	 function add_to_admin_menu() {
 		//add import to cpt
 		$parent_slug='edit.php?post_type='.$this->customPostType;
 		$page_title=CAF_SHORT_TITLE.' admin';		
 		$capability='edit_posts';
 		$menu_slug=basename(__FILE__);
+
+		//remove posts menu for dedicated table
+		if ($this->tableType=="dedicated") {
+			remove_submenu_page($parent_slug,"post-new.php?post_type=".$this->customPostType);
+			remove_submenu_page($parent_slug,$parent_slug);
+			$menu_title='Dedicated table';
+			$function = [$this,'dedTableHello'];
+			$menu_slug=$this->customPostType."-hello_ded";
+			add_submenu_page($parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function);
+		}
+
+		$menu_slug=$this->customPostType."-import";
 		$function = [$this,'csvMenu'];
 		$menu_title='Import';
 		add_submenu_page($parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function);
@@ -388,7 +406,7 @@ class AutaCustomPost {
 					["recreate",add_query_arg( 'do', 'recreate'),"remove all"],
 					["export fields",add_query_arg( ['do'=>'exportfields','noheader'=>'1']),"export fields to csv"],				
 					["import fields",add_query_arg( 'do', 'importfields'),"import fields from csv"],
-					["init min max",add_query_arg( 'do', 'initminmax'),"load min-max from current posts (needed for filtering)"]
+					["init min max",add_query_arg( 'do', 'initminmax'),"load min-max from current posts (only for frontend filtering)"]
 				];
 	  ?>	  
 	  
@@ -401,11 +419,7 @@ class AutaCustomPost {
 	  }
 	  ?>
 	  </ul>
-	  displayorder 51..60 = you can use {metaOut[field title]} in templates for display<br />
-	  displayorder 1..20 = you can use {metaOut[0]} in templates for display<br />
-	  displayorder 20..30 = you can use {metaOut[1]} in templates for display<br />
-	  displayorder 31..40 = you can use {metaOut[3]} in templates for display<br />
-	  displayorder 41..50 = you can use {featuredHtml} in templates for display<br />
+	
 	  <?php	  
 	  $do=filter_input( INPUT_GET, "do", FILTER_SANITIZE_STRING );
 	  $cpt=filter_input( INPUT_GET, "cpt", FILTER_SANITIZE_STRING );
@@ -448,13 +462,11 @@ class AutaCustomPost {
 		<div class='caf-editFieldRow'>
 			<form id="mAutaEdit<?= $this->getCustomPostType();?>" method='post' class='caf-editFieldRow caf-noborder editCPT'>
 				<div><div><label>singular name</label></div><input type='text' name='singular' value='<?= $this->singular?>' /></div>	
-				<div><div><label>plural name</label></div><input type='text' name='plural' value='<?= $this->plural?>' /></div>
-				<div><div><label>is comission junction? *</label></div><input name='specialType' type='checkbox' <?= ($this->specialType=="cj" ? "value='1' checked='checked'" : "")?> /></div>
-				<div><div><label>dedicated table? *</label></div><input name='tableType' type='checkbox' <?= ($this->tableType=="dedicated" ? "value='1' checked='checked'" : "")?> /></div>				
-				<div><div><label>mImgTools? *</label></div><input name='mImgTools' type='checkbox' <?= ($this->mImgTools ? "value='1' checked='checked'" : "")?> /></div>				
+				<div><div><label>plural name</label></div><input type='text' name='plural' value='<?= $this->plural?>' /></div>				
+				<div><div><label>dedicated table? *</label></div><input name='tableType' type='checkbox' <?= ($this->tableType=="dedicated" ? "value='1' checked='checked'" : "")?> /></div>								
 				<div><input name='cafActionEdit' type='submit' value='Edit' /></div>
 				<input name='slug' type='hidden' value='<?= $this->getCustomPostType();?>' />
-				* premium only
+				* optional feature, see docs
 			</form>
 			<form method='post' class='caf-editFieldRow caf-noborder removeCPT'>
 				<input name='cafActionRemove' type='submit' value='Remove' />
