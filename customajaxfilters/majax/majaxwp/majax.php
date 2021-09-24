@@ -8,10 +8,8 @@ Class Majax {
 	function __construct() {
 		spl_autoload_register([$this,"mLoadClass"]);
 		$this->majaxLoader=new MajaxLoader();
-		if (CAF_MAJAX_FAST > 1) $this->ajaxHandler=new MajaxHandlerShort($this->majaxLoader); //shortinit lightweight version
-		else $this->ajaxHandler=new MajaxHandler($this->majaxLoader); //ajax-admin version
-		$this->ajaxHandler->register();	
-						
+		$this->ajaxHandler=new MajaxHandlerShort($this->majaxLoader); 
+		$this->ajaxHandler->register();							
 	}
 	
 	function mLoadClass($class) {	
@@ -95,12 +93,19 @@ Class Majax {
 
 	function majaxEnqueueStyle() {		
 		$wp_scripts = wp_scripts();	
-		$mStyles=[			 
-			 'majax' => ['src' => CAF_MAJAX_PLUGIN_URL . 'majax.css'],
-			 'select2' => ['src' => CAF_MAJAX_PLUGIN_URL .'select2.min.css', 'srcCdn'=>'http://ajax.googleapis.com/ajax/libs/jqueryui/' . $wp_scripts->registered['jquery-ui-core']->ver . '/themes/smoothness/jquery-ui.css'],
-			 'admin-ui' => [ 'src' => CAF_MAJAX_PLUGIN_URL . "jquery-ui.min.css",
-				 			'srcCdn' => 'http://ajax.googleapis.com/ajax/libs/jqueryui/' . $wp_scripts->registered['jquery-ui-core']->ver . '/themes/redmond/jquery-ui.css']
-		];
+		if (CAF_LOAD_EXTERNAL_UI) {
+			$mStyles=[			 
+				'majax' => ['src' => CAF_MAJAX_PLUGIN_URL . 'majax.css'],
+				'select2' => ['src' => CAF_MAJAX_PLUGIN_URL .'select2.min.css', 'srcCdn'=>'http://ajax.googleapis.com/ajax/libs/jqueryui/' . $wp_scripts->registered['jquery-ui-core']->ver . '/themes/smoothness/jquery-ui.css'],
+				'admin-ui' => [ 'src' => CAF_MAJAX_PLUGIN_URL . "jquery-ui.min.css",
+								'srcCdn' => 'http://ajax.googleapis.com/ajax/libs/jqueryui/' . $wp_scripts->registered['jquery-ui-core']->ver . '/themes/redmond/jquery-ui.css']
+		   ];
+		} else {
+			$mStyles=[			 
+				'majax' => ['src' => CAF_MAJAX_PLUGIN_URL . 'majax.css']
+			];
+		}
+		
 		
 		foreach ($mStyles as $key => $value) {
 			$src = (isset($value["src"])) ? $value["src"] : $value["srcCdn"];
@@ -111,21 +116,25 @@ Class Majax {
 	}
 
 	function mAjaxEnqueueScripts() {	
-		$mScripts=[			
-			'select2' => [ 'src' => CAF_MAJAX_PLUGIN_URL .'select2.min.js',
-						   'srcCdn' => 'https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js',
-						   'depends' => array('jquery'),
-						   'inFooter' => true
+		if (CAF_LOAD_EXTERNAL_UI) {
+			$mScripts=[			
+				'select2' => [ 'src' => CAF_MAJAX_PLUGIN_URL .'select2.min.js',
+							'srcCdn' => 'https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js',
+							'depends' => array('jquery'),
+							'inFooter' => true
 
-			],
-			'jquery-ui-slider' => ['src' => array('jquery'),
-								   'inFotter' => true
-			],
-			'jquery-ui' => [ 'src' => CAF_MAJAX_PLUGIN_URL .'jquery-ui.min.js',
-							 'srcCdn' => 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js',
-			]
+				],
+				'jquery-ui-slider' => ['src' => array('jquery'),
+									'inFotter' => true
+				],
+				'jquery-ui' => [ 'src' => CAF_MAJAX_PLUGIN_URL .'jquery-ui.min.js',
+								'srcCdn' => 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js',
+				]
 
-		];
+			];
+		} else {
+			$mScripts=[];
+		}
 		
 		
 		foreach ($mScripts as $key => $value) {

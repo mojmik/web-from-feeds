@@ -20,13 +20,18 @@ class MajaxForm {
    }
    
    function checkCaptcha() {
+       return true;
+       /*wordpress plugin validation doesnt like this because of curl
+       * sadly couldnt use httpapi in handlershort              
+       */
+
+       /*
        $captchaResponse=$_POST["captcha"];
        if (!$captchaResponse) { 
         $this->logWrite("CAPTCHA blank ","filledform.txt");
         return false;
        }               
        $secret=MajaxAdmin\Settings::loadSecret("captchakey");       
-       //$verify=file_get_contents($url);
 
        $ch = curl_init();
        curl_setopt_array($ch, [
@@ -51,6 +56,7 @@ class MajaxForm {
        }
        $this->logWrite("CAPTCHA fail ".$output,"filledform.txt");
        return false;
+       */
    }
    function addFields($fieldSetType="default") {
     $fields=[];

@@ -7,17 +7,8 @@ class Settings {
     static private $settingsMap=[    
       "site"  => [
             "language" => ["desc" => "language of the site"], 
-            "currencyFormat" => ["default" => "$%1", "desc" => "currency format used for prices"], 
-            "clickAction" => ["default" => "none","desc" => "link action- form for form, any other value for standard"],
-            "buildCounts" => ["type"=> "checkbox", "desc" => "set when form with items counts are to be displayed (not recommended for big sites with many items)"],
-            "mImgTools" => ["type"=> "checkbox", "desc" => "enable mImgTools (changes htaccess file)"]
-        ],
-      "secret" => [          
-          "captchasecret" => ["desc" => "captcha secret key for antispam in forms"],
-          "sitekey"=> ["desc" => "captcha site key for antispam in forms"],
-          "from" => ["desc" => "email address used in from field"],          
-          "emailTo" => ["desc" => "email address for sending filled forms etc." ]
-        ]
+            "currencyFormat" => ["default" => "$%1", "desc" => "currency format used for prices"],           
+        ],      
     ];
 
     static function getPath($path="") {

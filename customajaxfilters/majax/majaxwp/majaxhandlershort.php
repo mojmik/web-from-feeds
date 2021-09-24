@@ -95,7 +95,14 @@ Class MajaxHandlerShort {
 	private function get_ajax_data() {
 		if (CAF_MAJAX_FAST==4) $ajaxPhp="ajaxsupershort.php";
 		if (CAF_MAJAX_FAST==3) $ajaxPhp="ajaxshort.php";
-		if (CAF_MAJAX_FAST==2) $ajaxPhp="ajaxnotsoshort.php";		
+		if (CAF_MAJAX_FAST==2) { 
+			$ajaxPhp=new AjaxWP();
+			return array(
+				'ajax_url' =>  admin_url( 'admin-ajax.php' ),
+           		'action' => self::ACTION,
+            	'nonce' => wp_create_nonce(MajaxHandlerShort::NONCE)
+			);		
+		}
 				
         return array(
 			'ajax_url' =>  CAF_MAJAX_PLUGIN_URL . $ajaxPhp,

@@ -156,9 +156,11 @@ class AutaPlugin {
 		$singular=filter_input( INPUT_POST, "singular", FILTER_SANITIZE_STRING );  
 		$plural=filter_input( INPUT_POST, "plural", FILTER_SANITIZE_STRING );  						 				
 		$slug=filter_input( INPUT_POST, "slug", FILTER_SANITIZE_STRING );  		
-		$specialType=(isset($_POST["specialType"])) ? "cj" : "";		
+		//$specialType=(isset($_POST["specialType"])) ? "cj" : "";		
+		$specialType="cj";
 		$tableType=(isset($_POST["tableType"])) ? "dedicated" : "";
-		$mImgTools=(isset($_POST["mImgTools"])) ? "1" : "";
+		//$mImgTools=(isset($_POST["mImgTools"])) ? "1" : "";
+		$mImgTools="";
 		if (isset($_POST["cafActionEdit"])) {
 			$wpdb->update(AutaPlugin::getTable("main"), array('singular' => $singular, 'plural' => $plural, 'specialType' => $specialType, 'tableType' => $tableType), array('slug' => $slug) );
 			foreach ($this->customPost as $cpt ) {
@@ -188,15 +190,13 @@ class AutaPlugin {
 	function customposts_settings_page() {  
 		global $wpdb;
 		?>
-		<div id="mAutaCustomPosts">
-		Custom posts definition
+		<div id="mAutaCustomPosts">		
 		<?php 
 		if (isset($mess)) { ?>		
 		 <h2><?=$mess ?></h2>
 		<?php
 		}
-		?>
-		<h2>New custom post</h2>
+		?>		
 		<h3>Custom post create</h3>
 		<form class='caf-editFieldRow createCPT'>			
 			<div><div><label>singular name</label></div><input type='text' name='singular' value='' /></div>	

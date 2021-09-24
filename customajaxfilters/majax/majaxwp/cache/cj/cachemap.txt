@@ -1,0 +1,127 @@
+allimagescj|empty^sortedcatscj|sortedcatscj^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                    
+                    ORDER BY rand() 
+                     LIMIT 9
+                |24-08-21-11-13-2592584.txt^
+                SELECT count(*) as cnt,post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`
+                    FROM wp_mauta_cj_ded
+                    
+                     
+                |24-08-21-11-13-2557055.txt^SELECT * FROM `wp_mauta_cj_cj_cats` WHERE `postType`='cj' AND `counts`>8 ORDER BY rand()|empty^
+            SELECT DISTINCT(`mauta_cj_brand`) AS `meta_value`
+            FROM wp_mauta_cj_ded
+            WHERE
+            `mauta_cj_type` LIKE '%'
+            ORDER BY rand()
+             LIMIT 1,15
+            |24-08-21-11-13-2553411.txt^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                    
+                    ORDER BY cast(`mauta_cj_priceDiscount` AS unsigned) ASC
+                     LIMIT 9,9
+                |21-09-21-07-49-3252577.txt^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                     WHERE  NOT post_name = 'sedak-na-houpaci-kreslo-linda-l16' AND `mauta_cj_type` LIKE 'ratanove-doplnky-polstry-a-podsedaky-polstry-na-kreslo%' 
+                    ORDER BY rand() 
+                     LIMIT 3
+                |21-09-21-07-53-1818539.txt^SELECT * FROM wp_mauta_cj_cj_cats WHERE `slug` LIKE 'ratanove-doplnky-polstry-a-podsedaky-polstry-na-kreslo' |21-09-21-07-53-1898854.txt^allimagescj|empty^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                    
+                    ORDER BY rand() 
+                     LIMIT 9
+                |21-09-21-09-11-5311207.txt^
+                SELECT count(*) as cnt,post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`
+                    FROM wp_mauta_cj_ded
+                    
+                     
+                |21-09-21-09-11-5350596.txt^SELECT * FROM `wp_mauta_cj_cj_cats` WHERE `postType`='cj' AND `counts`>8 ORDER BY rand()|empty^
+            SELECT DISTINCT(`mauta_cj_brand`) AS `meta_value`
+            FROM wp_mauta_cj_ded
+            WHERE
+            `mauta_cj_type` LIKE '%'
+            ORDER BY rand()
+             LIMIT 1,15
+            |21-09-21-09-11-5349197.txt^allimagescj|empty^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                    
+                    ORDER BY rand() 
+                     LIMIT 9
+                |21-09-21-09-13-2421363.txt^
+                SELECT count(*) as cnt,post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`
+                    FROM wp_mauta_cj_ded
+                    
+                     
+                |21-09-21-09-13-2424139.txt^SELECT * FROM `wp_mauta_cj_cj_cats` WHERE `postType`='cj' AND `counts`>8 ORDER BY rand()|empty^
+            SELECT DISTINCT(`mauta_cj_brand`) AS `meta_value`
+            FROM wp_mauta_cj_ded
+            WHERE
+            `mauta_cj_type` LIKE '%'
+            ORDER BY rand()
+             LIMIT 1,15
+            |21-09-21-09-13-2429899.txt^allimagescj|empty^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                    
+                    ORDER BY rand() 
+                     LIMIT 9
+                |21-09-21-09-13-5710352.txt^
+                SELECT count(*) as cnt,post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`
+                    FROM wp_mauta_cj_ded
+                    
+                     
+                |21-09-21-09-13-5768793.txt^SELECT * FROM `wp_mauta_cj_cj_cats` WHERE `postType`='cj' AND `counts`>8 ORDER BY rand()|empty^
+            SELECT DISTINCT(`mauta_cj_brand`) AS `meta_value`
+            FROM wp_mauta_cj_ded
+            WHERE
+            `mauta_cj_type` LIKE '%'
+            ORDER BY rand()
+             LIMIT 1,15
+            |21-09-21-09-13-5750455.txt^allimagescj|empty^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                    
+                    ORDER BY rand() 
+                     LIMIT 9
+                |21-09-21-09-14-2443399.txt^
+                SELECT count(*) as cnt,post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`
+                    FROM wp_mauta_cj_ded
+                    
+                     
+                |21-09-21-09-14-2444354.txt^SELECT * FROM `wp_mauta_cj_cj_cats` WHERE `postType`='cj' AND `counts`>8 ORDER BY rand()|empty^
+            SELECT DISTINCT(`mauta_cj_brand`) AS `meta_value`
+            FROM wp_mauta_cj_ded
+            WHERE
+            `mauta_cj_type` LIKE '%'
+            ORDER BY rand()
+             LIMIT 1,15
+            |21-09-21-09-14-2430470.txt^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                    
+                    ORDER BY cast(`mauta_cj_priceDiscount` AS unsigned) ASC
+                     LIMIT 18,9
+                |21-09-21-09-16-3622386.txt^allimagescj|empty^
+                SELECT post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`  
+                    FROM wp_mauta_cj_ded
+                    
+                    ORDER BY rand() 
+                     LIMIT 9
+                |21-09-21-09-16-4451565.txt^
+                SELECT count(*) as cnt,post_title,post_name,post_content,`mauta_cj_price`,`mauta_cj_buyurl`,`mauta_cj_gtin`,`mauta_cj_mpn`,`mauta_cj_imageurl`,`mauta_cj_priceDiscount`,`mauta_cj_brand`,`mauta_cj_type`,`_thumbnail_id`
+                    FROM wp_mauta_cj_ded
+                    
+                     
+                |21-09-21-09-16-4486372.txt^SELECT * FROM `wp_mauta_cj_cj_cats` WHERE `postType`='cj' AND `counts`>8 ORDER BY rand()|empty^
+            SELECT DISTINCT(`mauta_cj_brand`) AS `meta_value`
+            FROM wp_mauta_cj_ded
+            WHERE
+            `mauta_cj_type` LIKE '%'
+            ORDER BY rand()
+             LIMIT 1,15
+            |21-09-21-09-16-4424539.txt^
