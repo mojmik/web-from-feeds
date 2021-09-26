@@ -5,8 +5,7 @@ use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
 class Settings {	
     static private $settings=[];	
     static private $settingsMap=[    
-      "site"  => [
-            "language" => ["desc" => "language of the site"], 
+      "site"  => [            
             "currencyFormat" => ["default" => "$%1", "desc" => "currency format used for prices"],           
         ],      
     ];

@@ -4,15 +4,12 @@ use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
 
 class CJtools {
     private $params;
-    private $customPostType;
-    private $language;
+    private $customPostType;    
     private $currentCat;
     private $categorySeparator;
     private $replacements;
     public function __construct($customPostType) {
-        $this->setPostType($customPostType);
-        if (empty($this->language)) $this->language=Settings::loadSetting("language","site");
-        $this->translating=new MajaxWP\Translating($this->language);  
+        $this->setPostType($customPostType);              
         $this->categorySeparator=">";
         $this->separatorVariations=[ "|"," > ","&gt;", "> "," >"];
         $this->bannedCategories=["Heureka.cz","NÁBYTEK","Nábytek"];      
@@ -681,62 +678,5 @@ class CJtools {
         }
         return false;
     }        
-    function showBrandyNav($metaName) {                
-        $mikBrand=urlDecode(get_query_var("mikbrand"));
-        $catSlug=get_query_var("mikcat");
-        $brandyArr=$this->getCatMeta($catSlug,$metaName,false,true," LIMIT 1,15","ORDER BY rand()");
-        $brandsArr=[];
-        if (count($brandyArr)<2) return false;
-        foreach ($brandyArr as $brand) {
-            $brandVal=$brand["meta_value"];
-            if (!in_array($brandVal,$brandsArr) && $brandVal) $brandsArr[]=$brandVal;
-        }
-        $brandyArr=$brandsArr;
-        //if (empty($brandsArr) || count($brandsArr)<2) return "";
-        //showBrandyNav($thisTerm->name,$thisTerm->slug,$brandyStr);
-        
-        if (!empty($this->currentCat)) $name=$this->getCatPathNice();
-        else $name="";
-        //$brandsText=$this->translating->loadTranslation("products by brands");
-        $allBrandsText=$this->translating->loadTranslation("(all brands)");
-        ?>
-        
-        <?php
-        if ($mikBrand) {
-            ?>
-            <a href='<?= $this->getUrl($catSlug)?>'><?= $allBrandsText?></a>
-            <?php
-        } else {
-            ?>
-            <strong><?= $allBrandsText?></strong>
-            <?php
-        }
-        ?>
-        
-        <ul>
-        <?php
-        foreach ($brandyArr as $brand) {
-         //$url="/$mikCatSlug/$catSlug/$mikBrandy/".urlEncode($brand)."/";         
-         ?>
-         <li>
-         <?php
-         if ($brand == $mikBrand) {    
-          ?>
-          <strong><?= $brand?></strong>
-          <?php          
-         }  
-         else {
-          ?>
-            <a href='<?= $this->getUrl($catSlug,$brand)?>'><?= $brand?></a>
-          <?php
-         }
-         ?>
-         </li>
-         <?php
-        }
-        ?>
-        </ul>
-        <?php
-        return true;
-    }
+    
 }

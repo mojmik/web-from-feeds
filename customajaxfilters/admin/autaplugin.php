@@ -93,15 +93,13 @@ class AutaPlugin {
 		if ( ! wp_next_scheduled( 'caf_cronhook' ) ) {
 			wp_schedule_event( time(), 'daily', 'caf_cronhook' );
 		}
-		$templating=new MajaxWP\MajaxHtmlElements();
-		$templating->checkPath();
-		Settings::checkPath();
+
 	}
 	function caf_plugin_uninstall() {
 		wp_clear_scheduled_hook( 'caf_cronhook' );
 	}
 	function caf_cron_job() {		
-		\CustomAjaxFilters\Majax\MajaxWP\Caching::pruneCache();		
+		// \CustomAjaxFilters\Majax\MajaxWP\Caching::pruneCache();		
 	}
 	 
 	function pluginSettingsMenu() {    
@@ -145,7 +143,6 @@ class AutaPlugin {
 			$cpt=new AutaCustomPost($slug,$singular,$plural); 				
 			$cpt->autaFields->makeTable("fields");						
 			$this->customPost[]=$cpt;		
-			\CustomAjaxFilters\Majax\MajaxWP\Caching::checkPath($slug);
 		}	
 		echo "ok, created ".$cpt->editCptHtml();
 	}

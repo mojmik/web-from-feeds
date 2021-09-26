@@ -24,8 +24,5 @@ define('CAF_TEXTDOMAIN',"wpcustomajaxfilters");
 
 require_once CAF_PLUGIN_PATH . '/customajaxfilters/loader.php';
 $loader=new CustomAjaxFilters\Loader();
-//$loader->initAdmin();
 
 if (is_admin() || wp_is_json_request()) $loader->initAdmin();
-else $loader->initFrontend();
-

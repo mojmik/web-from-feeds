@@ -158,24 +158,7 @@ class ComissionJunction {
     $this->basePage=$basePage;
     add_filter( 'query_vars', [$this,'mautacj_query_vars'] );
     add_action('init', [$this,'mauta_rewrite_rule'], 10, 0);
-    add_filter( 'redirect_canonical', [$this,'disable_canonical_redirect_for_front_page'] );
-    add_filter('mod_rewrite_rules', [$this,'modifyHtaccess'] );
-  }
-  function modifyHtaccess($rules) {    
-    $mainRule="RewriteRule ^index\.php$ - [L]";
-    $new_rules = "RewriteRule ^mimgtools/(.*)$ /wp-content/plugins/".CAF_RELPATH_MAIN."majax/majaxwp/mimgmain.php?url=$1 [L,QSA]\n";
-    $mImgTools=Settings::loadSetting("mImgTools","site");	
-    if (empty($mImgTools)) {
-        if (strpos($rules,"mimgtools")!==false) {
-            return str_replace($new_rules,"",$rules);  //remove custom rule
-        } else {
-            return $rules;
-        }
-    } else {
-        if (strpos($rules,"mimgtools")!==false) return $rules;
-        if (strpos($rules,$mainRule)===false) return $rules;        
-        return str_replace($mainRule,$new_rules.$mainRule,$rules); //add custom rule
-    }
+    add_filter( 'redirect_canonical', [$this,'disable_canonical_redirect_for_front_page'] );    
   }
   function mautacj_query_vars( $vars ) {
     $vars[] = 'mik';
@@ -280,76 +263,6 @@ class ComissionJunction {
     return $path;
    }
  
-   function outParentCategory($cats,$thisCat,$depth,$maxDepth=1) {
-    //recursively output category branch    
-    $goDeeper=true;
-    ?>    
-    <ul>
-        <?php         
-        if ($this->currentCat==$thisCat["slug"]) {
-            ?>
-            <li><strong><?= $this->getCategoryNameFromPath($thisCat["path"])?> (<?= $thisCat["counts"]?>)</strong>
-            <?php
-        }
-        else {
-            $goDeeper=($depth<$maxDepth) || (strpos($this->currentCat,$thisCat["slug"])!==false);            
-            ?>
-            <li><a href='<?= $this->getPermaLink($thisCat["slug"])?>'><?= $this->getCategoryNameFromPath($thisCat["path"])?> (<?= $thisCat["counts"]?>)</a>
-            <?php
-        }            
-        if ($goDeeper) {
-            foreach ($cats as $key => $c) {
-                if ($c["parent"]===$thisCat["id"]) { 
-                    echo $this->outParentCategory($cats,$c,$depth+1,$maxDepth);
-                }
-            }
-        }        
-    ?>        
-        </li>
-    </ul>
-    <?php
-   }
-   function outCategoriesTreeShortCode($atts=[]) {
-    $this->currentCat=get_query_var("mikcat");
-    ob_start();       
-    if (!empty($atts["type"])) { 
-        $this->setPostType($atts["type"]);        
-        $cats=$this->getCategoriesArr();
-    } else return false;
-    
-    $max= (!array_key_exists("max",$atts)) ? 15 : $atts["max"];
-    $brands= (!array_key_exists("nobrands",$atts)) ? true : false;
-    $filter= (!array_key_exists("nofilter",$atts)) ? true : false;
-    $maxDepth=0;
-    if (!$filter) $maxDepth=9;
-    if ($brands) $this->getCjTools()->showBrandyNav($this->getMautaFieldName("brand"));
-    ?>
-    <div>
-    <?php
-    if ($filter) {
-        if ($this->currentCat) {
-            ?>
-                    <a href='/'><?= $this->getCjTools()->translating->loadTranslation("(all categories)")?></a>
-            <?php
-        }
-        else {
-            ?>
-                    <strong><?= $this->getCjTools()->translating->loadTranslation("(all categories)")?></strong>    
-            <?php
-        }
-    }    
-    $n=0;
-    foreach ($cats as $c) {
-        //root cats
-        if ($max!==null && $max!="0" && $n>$max) break; //display only 15 root cats
-        if (!$c["parent"]) { 
-            echo $this->outParentCategory($cats,$c,0,$maxDepth);
-            $n++;
-        }
-    }
-    ?>
-    </div>
-    <?php
-    return ob_get_clean();
-   }
+   
+   
 }

@@ -22,8 +22,7 @@ class AutaField {
 	  $this->valMax=null;
  } 
  public function addMetaBox($val) {
-	$this->val=$val;
-	AutaPlugin::logWrite("add metabox: {$this->customPostType} {$this->name}");	
+	$this->val=$val;	
 	add_meta_box("postfunctiondiv{$this->name}", $this->title, [$this,'mauta_metabox_html'], $this->customPostType, 'side', 'high');  
  }
  function mauta_metabox_html() 	{				
