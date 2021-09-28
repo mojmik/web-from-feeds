@@ -1,6 +1,5 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
 
 class CJtools {
     private $params;
@@ -134,7 +133,8 @@ class CJtools {
             $r[$key] = str_replace("^^^", "'", $r[$key]); 
             $r[$key] = str_replace("'", "''", $r[$key]); 
 
-            $r["imageurl"] = str_replace("http://", "https://", $r["imageurl"]);            
+            $r["imageurl"] = str_replace("http://", "https://", $r["imageurl"]);   
+            /*         
             $useMimgTools=Settings::loadSetting("mImgTools-".$this->customPostType,"cptsettings");
             if ($useMimgTools && !empty($r["imageurl"])) {                
                 $id=md5($r["imageurl"]);
@@ -142,7 +142,8 @@ class CJtools {
                 file_put_contents($fn,$r["imageurl"]); 
                 $r["imageurl"] = "/mimgtools/$id/";                            
             }
-            
+            */
+
             $imageHtml = "<img alt='".$titleSafe."' src='{$r["imageurl"]}' />";
             $r["imageurl"] = $imageHtml;
             
@@ -223,25 +224,25 @@ class CJtools {
             foreach($terms as $term => $value) {
                 //$row=["slug" => $term, "name" => $value, "postType" => $this->customPostType];
                 $row = ["name" => $value, "postType" => $this->customPostType];
-                MajaxWP\MikDb:: insertRow($this->params["cjCatsTempTable"], $row);
+                WDBtools::insertRow($this->params["cjCatsTempTable"], $row);
             }
         }
 
     }
     function getChildCategories($parentId) {
-        return MajaxWP\MikDb:: wpdbGetRows($this->params["cjCatsTable"], ["id", "path", "counts"], [["name"=> "parent", "value" => $parentId]]);
+        return WDBtools::wpdbGetRows($this->params["cjCatsTable"], ["id", "path", "counts"], [["name"=> "parent", "value" => $parentId]]);
     }
     function getCatById($id) {
-        $cats = MajaxWP\MikDb:: wpdbGetRows($this->params["cjCatsTable"], "*", [["name"=> "id", "value" => $id]]);
+        $cats = WDBtools::wpdbGetRows($this->params["cjCatsTable"], "*", [["name"=> "id", "value" => $id]]);
         return $cats[0];
     }
     function getCatByPath($path) {
-        $cats = MajaxWP\MikDb:: wpdbGetRows($this->params["cjCatsTable"], "*", [["name"=> "path", "value" => $path]]);
+        $cats = WDBtools::wpdbGetRows($this->params["cjCatsTable"], "*", [["name"=> "path", "value" => $path]]);
         return $cats[0];
     }
     function getCatBySlug($slug,$useCache=false) {
         if (!$slug) return false;
-        $cats = MajaxWP\MikDb:: wpdbGetRows($this->params["cjCatsTable"], "*", [["name"=> "slug", "operator" => "LIKE", "value" => $slug]],$useCache);        
+        $cats = WDBtools:: wpdbGetRows($this->params["cjCatsTable"], "*", [["name"=> "slug", "operator" => "LIKE", "value" => $slug]],$useCache);        
         if (empty($cats[0])) return [];
         $this->currentCat=$cats[0];
         return $this->currentCat;
@@ -258,12 +259,12 @@ class CJtools {
         $params["limit"]=[];
         if ($from!==null) $params["limit"][]=$from;
         if ($limitCnt!==null) $params["limit"][]=$limitCnt;
-        $cats = MajaxWP\MikDb:: wpdbGetRowsAdvanced($params);        
+        $cats = WDBtools:: wpdbGetRowsAdvanced($params);        
         return $cats;
     }
     
     function getCatMeta($catPath, $queryMetaName, $exact = true, $distinct=true,$limit="",$order="") {        
-        $prefix = MajaxWP\MikDb:: getWPprefix();
+        $prefix = WDBtools:: getWPprefix();
         $catMetaName = $this->params["catSlugMetaName"];        
 
         if (!$exact) $catPath.= "%";
@@ -311,11 +312,11 @@ class CJtools {
             }
         }
         //return $wpdb->get_results($query, ARRAY_A);
-        return MajaxWP\Caching::getCachedRows($query);
+        return WDBtools::wpDbGetRowsPrepared($query);
 
     }
     function getPostsByCategory($catSlug, $exact = true,$dedTable=false,$dedFields=[]) {
-        $prefix = MajaxWP\MikDb:: getWPprefix();
+        $prefix = WDBtools:: getWPprefix();
         global $wpdb;
         $catMetaName = $this->params["catSlugMetaName"];
         if (!$exact) $catSlug.= "%";
@@ -408,7 +409,7 @@ class CJtools {
             if ($parentId) {
                 $update[]=["name" => "parent", "type" => "%d", "value" => $parentId];
             } 
-            MajaxWP\MikDb:: wpdbUpdateRows($this->params["cjCatsTable"], 
+            WDBtools:: wpdbUpdateRows($this->params["cjCatsTable"], 
                         $update                          
                     , 
                     [
@@ -445,7 +446,7 @@ class CJtools {
         $enjoy = "";
         $txtby = "";
         $subCatStr = "";
-        
+        $subcats=array();
         $subcats = $this->getChildCategories($cat["id"]);
         $cntSubCats = count($subcats);
         $n = 0;
@@ -461,7 +462,7 @@ class CJtools {
         }
         unset($subcats);
         if ($subCatStr) {
-            $txtAlso = " ".__("Also",CAF_TEXTDOMAIN);
+            $txtAlso = " ".__("Also",PFEA_TEXTDOMAIN);
             $subCatStr = " ".$subCatStr;
         }
         else {
@@ -506,13 +507,13 @@ class CJtools {
         unset($termPosts);
 
         $enjoy = "";
-        $enjoy = $this->mRndTxt(array(__("Enjoy",CAF_TEXTDOMAIN), __("Find",CAF_TEXTDOMAIN), __("Choose- ",CAF_TEXTDOMAIN), __("Shop- ",CAF_TEXTDOMAIN), __("Eshops with",CAF_TEXTDOMAIN), __("Shops with",CAF_TEXTDOMAIN)));
+        $enjoy = $this->mRndTxt(array(__("Enjoy",PFEA_TEXTDOMAIN), __("Find",PFEA_TEXTDOMAIN), __("Choose- ",PFEA_TEXTDOMAIN), __("Shop- ",PFEA_TEXTDOMAIN), __("Eshops with",PFEA_TEXTDOMAIN), __("Shops with",PFEA_TEXTDOMAIN)));
 
         if ($cntPosts > 19) {
             if (strlen($cntPosts) > 1) $cntPosts = str_pad(substr($cntPosts, 0, 1), strlen($cntPosts), "0");
             $cntPosts = " ".$cntPosts;
-            $enjoy.= " ".$this->mRndTxt(array(__("more than",CAF_TEXTDOMAIN), __("over",CAF_TEXTDOMAIN)));
-            $txtproducts = " ".$this->mRndTxt(array(__("products",CAF_TEXTDOMAIN), __("offers",CAF_TEXTDOMAIN), __("sales",CAF_TEXTDOMAIN)));
+            $enjoy.= " ".$this->mRndTxt(array(__("more than",PFEA_TEXTDOMAIN), __("over",PFEA_TEXTDOMAIN)));
+            $txtproducts = " ".$this->mRndTxt(array(__("products",PFEA_TEXTDOMAIN), __("offers",PFEA_TEXTDOMAIN), __("sales",PFEA_TEXTDOMAIN)));
         }
         else {
             $cntPosts = "";
@@ -531,8 +532,8 @@ class CJtools {
             $brandyStr.= $brandyArr[$n];
         }
         if ($brandyStr) {
-            $brandyStr = " ".$brandyStr." ".$this->mRndTxt(array(__("and other brands",CAF_TEXTDOMAIN), __("and other producers",CAF_TEXTDOMAIN)));
-            $txtby = ", ".__("by",CAF_TEXTDOMAIN);
+            $brandyStr = " ".$brandyStr." ".$this->mRndTxt(array(__("and other brands",PFEA_TEXTDOMAIN), __("and other producers",PFEA_TEXTDOMAIN)));
+            $txtby = ", ".__("by",PFEA_TEXTDOMAIN);
         }
         else {
             $txtby = "";
@@ -612,7 +613,6 @@ class CJtools {
  
     
         $catTabName=$this->params["cjCatsTable"];    
-        //MajaxWP\MikDb::clearTable($catTabName);	
         $catsFinal=[];
         $map=[];
         foreach ($categoriesSorted as $key => $c) {
@@ -623,15 +623,15 @@ class CJtools {
                 "postType" => $this->customPostType
                 ];    
                 //check if cat already exists
-                $currRow=MajaxWP\MikDb::wpdbGetRows($catTabName,"path",[["name" => "path", "value" => $c["path"]]]);
+                $currRow=WDBtools::wpdbGetRows($catTabName,"path",[["name" => "path", "value" => $c["path"]]]);
                 if (empty($currRow)) {
-                    $map[$key]=MajaxWP\MikDb::insertRow($catTabName,$row);
+                    $map[$key]=WDBtools::insertRow($catTabName,$row);
                     $catsFinal[]=$row;
                 }         
             }        
         }
         //write to cache
-        MajaxWP\Caching::addCache("sortedcats".$this->customPostType,$catsFinal,"sortedcats".$this->customPostType); 
+        //MajaxWP\Caching::addCache("sortedcats".$this->customPostType,$catsFinal,"sortedcats".$this->customPostType); 
     
         return $catsFinal;      
     }

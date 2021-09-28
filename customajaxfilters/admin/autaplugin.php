@@ -1,6 +1,5 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
 
 class AutaPlugin {		
 	private $customPost=[];
@@ -11,8 +10,8 @@ class AutaPlugin {
 	
 	public function __construct() {			
         
-		register_activation_hook( CAF_PLUGIN_FILE_URL, [$this,'caf_plugin_install'] );
-		register_deactivation_hook( CAF_PLUGIN_FILE_URL, [$this,'caf_plugin_uninstall'] );
+		register_activation_hook( PFEA_PLUGIN_FILE_URL, [$this,'caf_plugin_install'] );
+		register_deactivation_hook( PFEA_PLUGIN_FILE_URL, [$this,'caf_plugin_uninstall'] );
 		add_action('admin_menu' , [$this,'pluginSettingsMenu']); 			
 		add_action( 'wp_ajax_createCPT', [$this,'createCPTproc'] );
 		//add_action( 'wp_ajax_editCPT', [$this,'editCPTproc'] );
@@ -29,7 +28,6 @@ class AutaPlugin {
 			$acp->adminInit();
 			$this->customPost[]=$acp; 
 			
-			\CustomAjaxFilters\Majax\MajaxWP\Caching::checkPruneCacheNeeded($row->slug);											
 		}	
 	}
 	function initWP() {
@@ -52,12 +50,12 @@ class AutaPlugin {
 
 	public static function getTable($tab,$cpt="") {
 	  global $wpdb;	
-	  if ($tab=="main") return $wpdb->prefix.CAF_TAB_PREFIX."plugin_main";
-	  if ($tab=="settings") return $wpdb->prefix.CAF_TAB_PREFIX."plugin_settings";
-	  if ($tab=="fields") return $wpdb->prefix.CAF_TAB_PREFIX.$cpt."_fields";
-	  if ($tab=="attachments") return $wpdb->prefix.CAF_TAB_PREFIX."attachments";
-	  if ($tab=="dedicated") return $wpdb->prefix.CAF_TAB_PREFIX.$cpt."_ded";
-	  return $wpdb->prefix.CAF_TAB_PREFIX.$tab;
+	  if ($tab=="main") return $wpdb->prefix.PFEA_TAB_PREFIX."plugin_main";
+	  if ($tab=="settings") return $wpdb->prefix.PFEA_TAB_PREFIX."plugin_settings";
+	  if ($tab=="fields") return $wpdb->prefix.PFEA_TAB_PREFIX.$cpt."_fields";
+	  if ($tab=="attachments") return $wpdb->prefix.PFEA_TAB_PREFIX."attachments";
+	  if ($tab=="dedicated") return $wpdb->prefix.PFEA_TAB_PREFIX.$cpt."_ded";
+	  return $wpdb->prefix.PFEA_TAB_PREFIX.$tab;
 	}
 
 	function caf_plugin_install() {
@@ -104,8 +102,8 @@ class AutaPlugin {
 	 
 	function pluginSettingsMenu() {    
 		//adds menu item
-		$page_title = CAF_SHORT_TITLE.' - settings';   
-		$menu_title = CAF_SHORT_TITLE.' - settings';   
+		$page_title = PFEA_SHORT_TITLE.' - settings';   
+		$menu_title = PFEA_SHORT_TITLE.' - settings';   
 		$capability = 'manage_options';   
 		$menu_slug  = AutaPlugin::$menuSlug;   
 		$function   =  [$this,'mainSettings'];   
@@ -114,10 +112,10 @@ class AutaPlugin {
 		add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position ); 
 
 		$parent_slug=$menu_slug;
-		$page_title=CAF_SHORT_TITLE.' - custom types';		
+		$page_title=PFEA_SHORT_TITLE.' - custom types';		
 		$menu_slug=basename(__FILE__);
 		$function = [$this,'customposts_settings_page'];
-		$menu_title=CAF_SHORT_TITLE.' - custom types';
+		$menu_title=PFEA_SHORT_TITLE.' - custom types';
 		add_submenu_page($parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function);
 		
 	}

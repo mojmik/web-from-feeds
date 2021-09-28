@@ -1,6 +1,5 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
 
 class ComissionJunction {
  private $cjCols; 
@@ -17,7 +16,7 @@ class ComissionJunction {
      $this->categorySlug="category";
      
      if (!empty($args["prefix"])) $this->dbPrefix=$args["prefix"];
-     else $this->dbPrefix=MajaxWP\MikDb::getTablePrefix();    
+     else $this->dbPrefix=WDBtools::getTablePrefix();    
      
      $this->initCJcols();
      if (!empty($args["postType"])) $this->setPostType($args["postType"]);     
@@ -47,7 +46,7 @@ class ComissionJunction {
  }
  public function setPostType($postType) {
     $this->postType=$postType;
-    MajaxWP\Caching::setPostType($this->postType);	
+
     $this->tableNames=[
         "main" => $this->dbPrefix."".$this->postType."_cj_import",
         "tempCats" => $this->dbPrefix."".$this->postType."_cj_tempcats",
@@ -131,7 +130,7 @@ class ComissionJunction {
  }
  function createCjTables() {     
         //table for storing cj import from csv
-        MajaxWP\MikDb::createTable($this->getTabName("main"),$this->cjCols,["drop" => true]);
+        WDBtools::createTable($this->getTabName("main"),$this->cjCols,["drop" => true]);
 
         //table for custom categories
         $customCatsCols=[
@@ -139,7 +138,7 @@ class ComissionJunction {
             "name" => ["sql" => "text"],
             "postType" => ["sql" => "text"],
         ];        
-        MajaxWP\MikDb::createTable($this->getTabName("tempCats"),$customCatsCols,["drop" => true]);
+        WDBtools::createTable($this->getTabName("tempCats"),$customCatsCols,["drop" => true]);
 
         //table for custom categories
         $customCatsCols=[
@@ -151,7 +150,7 @@ class ComissionJunction {
             "desc" => ["sql" => "text"],
             "counts" => ["sql" => "int(11)"]            
         ];        
-        MajaxWP\MikDb::createTableIfNotExists($this->getTabName("cats"),$customCatsCols,["drop" => false]);
+        WDBtools::createTableIfNotExists($this->getTabName("cats"),$customCatsCols,["drop" => false]);
 
   }
   function handleRewriteRules($basePage=[]) {    
@@ -228,23 +227,11 @@ class ComissionJunction {
    
    function getCategoriesArr() {
     global $wpdb;
-    $cacheOff=true;
     $catTabName=$this->getTabName("cats");    
-        
-    if (!$cacheOff) {
-        /* load from cache */
-        $catsFinal=MajaxWP\Caching::getCachedJson("sortedcats".$this->postType);
-        if ($catsFinal!==false) {
-            return $catsFinal;
-        }   
-    } else {
-        /* load from table */
-        $query = "SELECT * FROM `{$catTabName}` WHERE `postType`='$this->postType' AND `counts`>8 ORDER BY rand()";
-        //$catsFinal=$wpdb->get_results($query, ARRAY_A);
-        $catsFinal=MajaxWP\Caching::getCachedRows($query);
-        if (!empty($catsFinal) && count($catsFinal)>0) return $catsFinal;
-    }
-    
+    $query = "SELECT * FROM `{$catTabName}` WHERE `postType`='$this->postType' AND `counts`>8 ORDER BY rand()";
+    //$catsFinal=$wpdb->get_results($query, ARRAY_A);
+    $catsFinal=WDBtools::wpDbGetRowsPrepared($query);
+    if (!empty($catsFinal) && count($catsFinal)>0) return $catsFinal;
     return $catsFinal;
    }
    

@@ -7,7 +7,7 @@ class AutaField {
  public function __construct($name,$type="",$title="",$options="",$postType="",$compare="",$filterorder="",$displayorder="",$icon="",$fieldformat="",$htmlTemplate="",$virtVal="") {
 	  $this->name=$name;	 
 	  $this->type=$type;	
-	  $this->id=CAF_TAB_PREFIX.$name;
+	  $this->id=PFEA_TAB_PREFIX.$name;
 	  $this->title=__($title);	 
 	  $this->options=$options;	  
 	  $this->customPostType=$postType;		 

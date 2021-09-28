@@ -1,12 +1,12 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
+
 /*
  for large tables, where post+postmeta would be slow
 */
 
 class DedicatedTables {
-    private $render;
+
     private $postType;
     public function __construct($postType,$args=[]) {  
         $this->postType=$postType;
@@ -15,8 +15,9 @@ class DedicatedTables {
         return AutaPlugin::getTable("dedicated",$this->postType);
     }
     private function initFields() {
-        $this->render=new MajaxWP\MajaxRender(true,["type" => $this->postType]);
-        $requiredFields=$this->render->getFields()->getAllFields();        
+
+        //$requiredFields=$this->render->getFields()->getAllFields();        
+        $requiredFields=[];        
         $allFields=[
             "id" => ["sql" => "int(11) NOT NULL AUTO_INCREMENT", "primary" => true],
             "post_name" => ["sql" => "TEXT NOT NULL"],
@@ -32,8 +33,8 @@ class DedicatedTables {
     
     public function initTable($clear=true) {
         $fieldsDef=$this->initFields($this->postType);
-        MajaxWP\MikDb::createTableIfNotExists($this->getTableName(),$fieldsDef);
-        if ($clear) MajaxWP\MikDb::clearTable($this->getTableName());
+        WDBtools::createTableIfNotExists($this->getTableName(),$fieldsDef);
+        if ($clear) WDBtools::clearTable($this->getTableName());
         Settings::writeSetting("cptsettings-dedicatedTables-".$this->postType,$this->getTableName());
     }
     public function countPosts() {
@@ -58,7 +59,7 @@ class DedicatedTables {
         foreach ($row as $key => $val) {
             $row[$key]=esc_sql($val);            
         }     
-        MajaxWP\MikDb::insertRow($this->getTableName(),$row); 
+        WDBtools::insertRow($this->getTableName(),$row); 
     }
     private function getRows($from,$to) {
         global $wpdb;

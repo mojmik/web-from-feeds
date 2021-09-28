@@ -1,6 +1,6 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
+
 
 
 class ImportCSV {
@@ -288,7 +288,7 @@ class ImportCSV {
 	}
 	public function clearImportTable() {
 		$table=$this->params["tableName"];
-		MajaxWP\MikDb::clearTable($table);
+		WDBtools::clearTable($table);
 	}
 	public function loadCsvFile($file,$lineFrom=0,$lineTo=0) {
 		global $wpdb;		
@@ -302,7 +302,7 @@ class ImportCSV {
 		$fh = fopen($file, "r"); 
 		$lineNum=0;
 		$mInserted=0;		
-		if ($emptyFirst) MajaxWP\MikDb::clearTable($table);
+		if ($emptyFirst) WDBtools::clearTable($table);
 		while ($line = $this->fgetcsvUTF8($fh, 8000)) {		
 			$lineNum++;			
 			if ($colsOnFirstLine && $lineNum===1) {		
@@ -323,7 +323,7 @@ class ImportCSV {
 					$n++;
 				}		
 				if (!empty($cj)) $mRow=$cj->produceRecord($mRow);			
-				MajaxWP\MikDb::insertRow($table,$mRow,$skipCols);	
+				WDBtools::insertRow($table,$mRow,$skipCols);	
 				$mInserted++;			 
 			}			
 				 
@@ -342,8 +342,6 @@ class ImportCSV {
 		$fh = fopen($file, "r"); 
 		$lineNum=0;
 		$mInserted=0;		
-		AutaPlugin::logWrite("about to load csv ".$file." into ".$table);
-		//if ($emptyFirst) MajaxWP\MikDb::clearTable($table);
 		while ($line = fgets($fh)) {		
 			$lineNum++;	
 			if ($colsOnFirstLine && ($lineNum)===1) {		
@@ -375,7 +373,7 @@ class ImportCSV {
 					$n++;
 				}		
 				if (!empty($cj)) $mRow=$cj->produceRecord($mRow);			
-				MajaxWP\MikDb::insertRow($table,$mRow,$skipCols);	
+				WDBtools::insertRow($table,$mRow,$skipCols);	
 				$mInserted++;			 
 			}			
 				 
@@ -400,7 +398,6 @@ class ImportCSV {
 		  PRIMARY KEY  (id)
 		) $charset_collate;";		
 		require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-		AutaPlugin::logWrite($sql);
 		dbDelta( $sql );
 	}
 	

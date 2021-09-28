@@ -1,6 +1,5 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
 
 class CJpages {
     private $customPostType;
@@ -18,12 +17,12 @@ class CJpages {
         $childPages=[];        
         $currencyFormat=$this->cjTools->getParams("currencyFormat");
 
-        $text[1] = __("Online shopping for",CAF_TEXTDOMAIN);
-        $text[2] = __("with great number of products and special prices",CAF_TEXTDOMAIN);
-        $text[3] = __("Offered by famous brands like",CAF_TEXTDOMAIN);
-        $text[4] = __("and many more products",CAF_TEXTDOMAIN);
-        $text[5] = __("For instance",CAF_TEXTDOMAIN);
-        $text[6] = __("under ",CAF_TEXTDOMAIN);        
+        $text[1] = __("Online shopping for",PFEA_TEXTDOMAIN);
+        $text[2] = __("with great number of products and special prices",PFEA_TEXTDOMAIN);
+        $text[3] = __("Offered by famous brands like",PFEA_TEXTDOMAIN);
+        $text[4] = __("and many more products",PFEA_TEXTDOMAIN);
+        $text[5] = __("For instance",PFEA_TEXTDOMAIN);
+        $text[6] = __("under ",PFEA_TEXTDOMAIN);        
 
         //vzit kategorie, ktery maji pres 100 postu
         $createdCatPages = 0;

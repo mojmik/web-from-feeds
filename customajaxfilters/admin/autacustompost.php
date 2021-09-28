@@ -1,6 +1,6 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
+
 
 class AutaCustomPost {	
 	public $autaFields;
@@ -22,7 +22,7 @@ class AutaCustomPost {
 		 add_action( 'save_post_'.$postType, [$this,'mauta_save_post'] ); 
 		 add_action( 'wp_ajax_importCSV', [$this,'importCSVprocAjax'] );
 		 $this->autaFields = new AutaFields($this->customPostType);
-		 if (CAF_FORCE_CJ) $specialType="cj";
+		 if (PFEA_FORCE_CJ) $specialType="cj";
 		 if ($specialType=="cj") { 
 			 $this->isCj=true;
 			 $this->cj=new ComissionJunction(["postType" => $this->customPostType]); 
@@ -58,7 +58,7 @@ class AutaCustomPost {
 		$labels = array(
 			'name'                => _x( $this->customPostType, 'Post Type General Name', $textDomain ),
 			'singular_name'       => _x( $this->singular, 'Post Type Singular Name', $textDomain ),
-			'menu_name'           => __( CAF_SHORT_TITLE." - ".$this->customPostType, $textDomain ),
+			'menu_name'           => __( PFEA_SHORT_TITLE." - ".$this->customPostType, $textDomain ),
 			'parent_item_colon'   => __( 'Parent', $textDomain)." ".$this->singular,
 			'all_items'           => __( 'All', $textDomain)." ".$this->plural,
 			'view_item'           => __( 'Show', $textDomain )." ".$this->singular,
@@ -111,8 +111,8 @@ class AutaCustomPost {
 			";
 			$result = $wpdb->get_results($query);  
 		if ($this->isCj) {						
-			MajaxWP\MikDb::clearTable($this->cj->getCatsTabName());
-			MajaxWP\MikDb::clearTable($this->cj->getMainTabName());
+			WDBtools::clearTable($this->cj->getCatsTabName());
+			WDBtools::clearTable($this->cj->getMainTabName());
 			
 		}	
 		
@@ -123,7 +123,6 @@ class AutaCustomPost {
 			";
 			$result = $wpdb->get_results($query);  
 		}
-		MajaxWP\Caching::pruneCache(true,$this->customPostType);
 	}	
 	function importCSVprocAjax() {
 		$do=filter_input( INPUT_POST, "doajax", FILTER_SANITIZE_STRING );
@@ -206,11 +205,11 @@ class AutaCustomPost {
 	function importCSVproc() {
 		$do=filter_input( INPUT_GET, "do", FILTER_SANITIZE_STRING );
 		if ($do=="removeexttables") {
-			$prefix=MajaxWP\MikDb::getTablePrefix().$this->customPostType."_";
-			MajaxWP\MikDb::dropTable($prefix."cj_import");	
-			MajaxWP\MikDb::dropTable($prefix."cj_cats");	
-			MajaxWP\MikDb::dropTable($prefix."cj_tempcats");	
-			MajaxWP\MikDb::dropTable($prefix."fields");	
+			$prefix=WDBtools::getTablePrefix().$this->customPostType."_";
+			WDBtools::dropTable($prefix."cj_import");	
+			WDBtools::dropTable($prefix."cj_cats");	
+			WDBtools::dropTable($prefix."cj_tempcats");	
+			WDBtools::dropTable($prefix."fields");	
 		}
 		if ($do=="removeall") {
 			$this->removeAll();
@@ -222,7 +221,7 @@ class AutaCustomPost {
 		}			  
 		
 		if ($do=="csv") {			
-			$tabName=MajaxWP\MikDb::getTablePrefix()."csvtab";	
+			$tabName=WDBtools::getTablePrefix()."csvtab";	
 			$separator=filter_input( INPUT_POST, "separator", FILTER_SANITIZE_STRING );
 			$encoding=filter_input( INPUT_POST, "encoding", FILTER_SANITIZE_STRING );
 			if ($importCSV->gotUploadedFile()) {
@@ -256,14 +255,14 @@ class AutaCustomPost {
 		  }
 		  if ($do=="csv" || $do=="cjcsv") {
 			$importCSV->showImportCSV($do);	
-			$countReadyCSV=MajaxWP\MikDb::wpdbTableCount($tabName);
+			$countReadyCSV=WDBtools::wpdbTableCount($tabName);
 			if ($countReadyCSV>0) { 
 				echo "<br />$countReadyCSV csv rows ready";
 				$importCSV->showMakePosts($do,$tabName,$countReadyCSV);			
 			}
 		  }
 		  if ($do=="csvbulkimport") {
-				$files = glob(CAF_PLUGIN_PATH."*.txt");
+				$files = glob(PFEA_PLUGIN_PATH."*.txt");
 				?>
 				
 				<?php
@@ -273,7 +272,7 @@ class AutaCustomPost {
 					?>
 					<form data-form='csvBulkImport'>
 						<div class="row">
-							<input style='width:100px;' type='submit' value='<?= __("Process",CAF_TEXTDOMAIN)?>' />
+							<input style='width:100px;' type='submit' value='<?= __("Process",PFEA_TEXTDOMAIN)?>' />
 							<span style="width:60%;"><?= basename($fn)?></span>
 							<input data-fn='csvbulkfn' type='hidden' name='file<?= $n?>' value='<?= $fn?>' />														
 							<span style='font-weight:700; width:200px;' data-fn='statuscsvbulk-file<?= $n?>' ></span>
@@ -298,19 +297,19 @@ class AutaCustomPost {
 	}
 	function csvMenu() {
 		$setUrl = [	
-			[__("csv import",CAF_TEXTDOMAIN),add_query_arg( 'do', 'csv'),__("import csv file",CAF_TEXTDOMAIN)],			
-			[__("csv bulk import",CAF_TEXTDOMAIN),add_query_arg( 'do', 'csvbulkimport'),__("import csv files uploaded by ftp",CAF_TEXTDOMAIN)]								
+			[__("csv import",PFEA_TEXTDOMAIN),add_query_arg( 'do', 'csv'),__("import csv file",PFEA_TEXTDOMAIN)],			
+			[__("csv bulk import",PFEA_TEXTDOMAIN),add_query_arg( 'do', 'csvbulkimport'),__("import csv files uploaded by ftp",PFEA_TEXTDOMAIN)]								
 		];
 		//$setUrl[]=["dedicated tables debug",add_query_arg( 'do', 'creatededicatedtable'),"create dedicated table from posts debug (for huge sites)"],			
 		if ($this->isCj) {
 			array_push($setUrl,
-				[__("cj csv import",CAF_TEXTDOMAIN),add_query_arg( 'do', 'cjcsv'),__("import cj csv file",CAF_TEXTDOMAIN)],				
-				[__("cj cats description and counts",CAF_TEXTDOMAIN),add_query_arg( 'do', ''),__("create description and counts for categories",CAF_TEXTDOMAIN), "catdescajax"],
-				[__("create pages",CAF_TEXTDOMAIN),add_query_arg( 'do', 'createcatpages'),__("create random pages from posts",CAF_TEXTDOMAIN)],
-				[__("remove cj tables",CAF_TEXTDOMAIN),add_query_arg( 'do', 'removeexttables'),__("drop tables for cj fields and categories",CAF_TEXTDOMAIN)]
+				[__("cj csv import",PFEA_TEXTDOMAIN),add_query_arg( 'do', 'cjcsv'),__("import cj csv file",PFEA_TEXTDOMAIN)],				
+				[__("cj cats description and counts",PFEA_TEXTDOMAIN),add_query_arg( 'do', ''),__("create description and counts for categories",PFEA_TEXTDOMAIN), "catdescajax"],
+				[__("create pages",PFEA_TEXTDOMAIN),add_query_arg( 'do', 'createcatpages'),__("create random pages from posts",PFEA_TEXTDOMAIN)],
+				[__("remove cj tables",PFEA_TEXTDOMAIN),add_query_arg( 'do', 'removeexttables'),__("drop tables for cj fields and categories",PFEA_TEXTDOMAIN)]
 				);				
 		} 
-		array_push($setUrl,[__("remove all",CAF_TEXTDOMAIN),add_query_arg( 'do', 'removeall'),__("remove all posts of this type",CAF_TEXTDOMAIN)]);
+		array_push($setUrl,[__("remove all",PFEA_TEXTDOMAIN),add_query_arg( 'do', 'removeall'),__("remove all posts of this type",PFEA_TEXTDOMAIN)]);
 		
 		?>
 		<h1>Import options</h1>
@@ -352,12 +351,12 @@ class AutaCustomPost {
 		?>
 		<h1>Dedicated table - <?= $this->plural ?></h1>
 		<?php
-		_e("For dedicated tables, please use import options. Adding/Editing as posts is not implemented.",CAF_TEXTDOMAIN);
+		_e("For dedicated tables, please use import options. Adding/Editing as posts is not implemented.",PFEA_TEXTDOMAIN);
 	}
 	 function add_to_admin_menu() {
 		//add import to cpt
 		$parent_slug='edit.php?post_type='.$this->customPostType;
-		$page_title=CAF_SHORT_TITLE.' admin';		
+		$page_title=PFEA_SHORT_TITLE.' admin';		
 		$capability='edit_posts';
 		$menu_slug=basename(__FILE__);
 
@@ -377,16 +376,13 @@ class AutaCustomPost {
 		add_submenu_page($parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function);
 		
 		//adds sub menu item
-		$page_title = CAF_SHORT_TITLE.' - fields';   		
+		$page_title = PFEA_SHORT_TITLE.' - fields';   		
 		$menu_title = "Fields";   
 		$capability = 'manage_options';   
 		$menu_slug  = $this->customPostType.'-plugin-settings';   
 		$function   =  [$this,'caf_cpt_fields_page'];   
 		add_submenu_page($parent_slug, $page_title, $menu_title, $capability, $menu_slug, $function);
-		if (CAF_ALLOW_ATTACHMENTS) {
-			$attachments=new Attachments($this->customPostType); 
-			$attachments->addToAdminMenu($parent_slug,$capability);
-		}
+	
 		
 		
 	} 
@@ -449,7 +445,6 @@ class AutaCustomPost {
 	  if ($do=="initminmax") {
 		$thisTable=AutaPlugin::getTable("fields",$this->customPostType);
 		$this->autaFields->initMinMax();
-		MajaxWP\Caching::pruneCache(true,$this->customPostType);
 	  }
 	  $this->autaFields->procEdit();
 	  $this->autaFields->printNewField();
@@ -490,6 +485,6 @@ class AutaCustomPost {
 				$somethingChanged=true;
 			}								
 		}
-		if ($somethingChanged) MajaxWP\Caching::pruneCache(true,$this->customPostType);
+		//if ($somethingChanged) MajaxWP\Caching::pruneCache(true,$this->customPostType);
 	} 
 }

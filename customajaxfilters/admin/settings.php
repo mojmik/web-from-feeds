@@ -1,6 +1,5 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
 
 class Settings {	
     static private $settings=[];	

@@ -1,6 +1,5 @@
 <?php
 namespace CustomAjaxFilters\Admin;
-use \CustomAjaxFilters\Majax\MajaxWP as MajaxWP;
 
 class AutaFields {
 	private $fieldsList;
@@ -80,16 +79,14 @@ class AutaFields {
 				echo "changed $name";
 			 }
 			}
-			MajaxWP\Caching::pruneCache(true,$this->customPostType);
 		}
 		
 		//new field
 		if (isset($_POST["newField"])) {			
 				//create table if not exists
-			 	$newName=CAF_TAB_PREFIX.sanitize_title($title);				
+			 	$newName=PFEA_TAB_PREFIX.sanitize_title($title);				
 				$this->addField($newName,$type,$compare,$title,$options,$filterorder,$displayorder,$icon,$fieldformat,$htmlTemplate,$virtVal);												
 				echo "created $name";
-				MajaxWP\Caching::pruneCache(true,$this->customPostType);
 		}
 		
 		//delete field
@@ -107,7 +104,6 @@ class AutaFields {
 				unset($this->fieldsList[$index]);				
 				echo "deleted $name $key";
 			}
-			MajaxWP\Caching::pruneCache(true,$this->customPostType);
 		}
 	}
 	public function printFields() {

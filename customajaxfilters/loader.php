@@ -24,8 +24,8 @@ class Loader {
 		}
     }
     public function globalInit() {
-        //load_plugin_textdomain( CAF_TEXTDOMAIN, false, CAF_PLUGIN_PATH.'/customajaxfilters/languages' );
-        load_plugin_textdomain( CAF_TEXTDOMAIN, false, CAF_RELPATH_MAIN.'languages' );
+        //load_plugin_textdomain( PFEA_TEXTDOMAIN, false, PFEA_PLUGIN_PATH.'/customajaxfilters/languages' );
+        load_plugin_textdomain( PFEA_TEXTDOMAIN, false, CAF_RELPATH_MAIN.'languages' );
     }
     public function initAdmin() {
         $mautawp=new Admin\AutaPlugin(); 
@@ -34,7 +34,7 @@ class Loader {
     
     function mLoadClass($class) {	
 		if (strpos($class,"CustomAjaxFilters")!==0) return;
-		$path=CAF_PLUGIN_PATH.str_replace("\\","/",strtolower("$class.php"));		
+		$path=PFEA_PLUGIN_PATH.str_replace("\\","/",strtolower("$class.php"));		
         require($path);
     }
 
