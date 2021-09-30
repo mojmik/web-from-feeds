@@ -1,11 +1,14 @@
 <?php
 namespace CustomAjaxFilters\Admin;
 
-class Settings {	
+class Settings {
+    
+    static private $settingsInFiles=false;
     static private $settings=[];	
     static private $settingsMap=[    
       "site"  => [            
             "currencyFormat" => ["default" => "$%1", "desc" => "currency format used for prices"],           
+            "isProductFeed" => ["default" => "0", "type" => "checkbox", "desc" => "special type of google product feed"],
         ],      
     ];
 
@@ -13,14 +16,24 @@ class Settings {
         return CAF_MAJAX_PATH . "../settings/".$path;
     }
     static function checkPath() { 
+        if (!Settings::$settingsInFiles) return;
         if (!file_exists(Settings::getPath())) {
             mkdir(Settings::getPath(), 0744, true);
         }               
     }
-    static function loadSetting($file,$type,$isArray=false) {     
+    static function loadSetting($file,$type="",$isArray=false) {     
+        if (!$type) $type="site";
         $key=Settings::getSettingKey($type,$file);	 	 
-        if (!array_key_exists($key,Settings::$settings)) {            
-            Settings::$settings[$key]=@file_get_contents(Settings::getPath("$key.txt"));                   
+        if (!array_key_exists($key,Settings::$settings)) {   
+            if (Settings::$settingsInFiles) {         
+                Settings::$settings[$key]=@file_get_contents(Settings::getPath("$key.txt"));                   
+            } else {
+                global $wpdb;
+                $query = $wpdb->prepare("SELECT * FROM `".PFEA_TAB_SETTINGS."` WHERE `opt` LIKE '%s'",$key);	
+                foreach( $wpdb->get_results($query) as $key => $row) {								
+                    Settings::$settings[$row->opt]=$row->val;
+                }	
+            }
         }
         if (empty(Settings::$settings[$key])) {
             if (!empty(Settings::$settingsMap[$type][$file]["default"])) Settings::$settings[$key]=Settings::$settingsMap[$type][$file]["default"];
@@ -28,11 +41,19 @@ class Settings {
 		if (!$isArray) return Settings::$settings[$key];
 		else return explode(";",Settings::$settings[$key]);
 	}
-	static function writeSetting($file,$in,$isArray=false) {     
-        if ($isArray) $in=implode(";",$in);		
-        Settings::$settings[$file]=$in;
-        @file_put_contents(Settings::getPath()."$file.txt",$in);      		
-        return Settings::$settings[$file];
+	static function writeSetting($file,$in,$isArray=false) {          
+        if (Settings::$settingsInFiles) {
+            if ($isArray) $in=implode(";",$in);		
+            Settings::$settings[$file]=$in;
+            @file_put_contents(Settings::getPath()."$file.txt",$in);      		            
+        } else {
+            global $wpdb;
+            $sql = $wpdb->prepare("DELETE FROM `".PFEA_TAB_SETTINGS."` WHERE `opt` like '%s'",$file);
+            $wpdb->query($sql);
+            $sql = $wpdb->prepare("INSERT INTO `".PFEA_TAB_SETTINGS."` (`opt`, `val`) values (%s,%s)",$file,$in);				
+            $wpdb->query($sql);  
+        }
+        
 	}
 
 	static function loadSecret($file) {          
@@ -41,7 +62,7 @@ class Settings {
     static function getSettingKey($type,$name) {
         return "$type-$name";
     }
-    static function editAllSettings($table) {
+    static function editAllSettings() {
 		global $wpdb;
 		
 		$setting=[];
@@ -55,11 +76,8 @@ class Settings {
                 $key=Settings::getSettingKey($settingsType,$setting);	 			
                 $val=filter_input( INPUT_POST, $key, FILTER_SANITIZE_STRING );  
                 if (isset($val)) {
-                    if ($type=="checkbox" && $val=="0") $val="";
-                    $sql = $wpdb->prepare("DELETE FROM `$table` WHERE `opt` like '%s'",$key);
-                    $wpdb->query($sql);
-                    $sql = $wpdb->prepare("INSERT INTO `$table` (`opt`, `val`) values (%s,%s)",$key,$val);				
-                    $wpdb->query($sql);
+                    if ($type=="checkbox" && $val=="0") $val="";                    
+                    if ($type=="checkbox" && $val=="on") $val="1";
                     Settings::writeSetting($key,$val);
                     Settings::$settings[$key]=$val;
                 }			
@@ -67,16 +85,16 @@ class Settings {
 		}
 		echo "saved";
     }
-    static function loadAllSettings($table) {
+    static function loadAllSettings() {
         global $wpdb;		
-		$query = "SELECT * FROM `".$table."`";	
+		$query = "SELECT * FROM `".PFEA_TAB_SETTINGS."`";	
 		foreach( $wpdb->get_results($query) as $key => $row) {								
 			Settings::$settings[$row->opt]=$row->val;
 		}	
     }
-    static function adminAllSettings($table) {
-        Settings::editAllSettings($table);
-        Settings::loadAllSettings($table);
+    static function adminAllSettings() {
+        Settings::editAllSettings();
+        Settings::loadAllSettings();
         ?>
 		<h2>CAF settings</h2>
 			

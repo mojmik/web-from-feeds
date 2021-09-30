@@ -51,7 +51,7 @@ class AutaPlugin {
 	public static function getTable($tab,$cpt="") {
 	  global $wpdb;	
 	  if ($tab=="main") return $wpdb->prefix.PFEA_TAB_PREFIX."plugin_main";
-	  if ($tab=="settings") return $wpdb->prefix.PFEA_TAB_PREFIX."plugin_settings";
+	  if ($tab=="settings") return PFEA_TAB_SETTINGS;
 	  if ($tab=="fields") return $wpdb->prefix.PFEA_TAB_PREFIX.$cpt."_fields";
 	  if ($tab=="attachments") return $wpdb->prefix.PFEA_TAB_PREFIX."attachments";
 	  if ($tab=="dedicated") return $wpdb->prefix.PFEA_TAB_PREFIX.$cpt."_ded";

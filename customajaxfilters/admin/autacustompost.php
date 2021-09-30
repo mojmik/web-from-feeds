@@ -22,7 +22,7 @@ class AutaCustomPost {
 		 add_action( 'save_post_'.$postType, [$this,'mauta_save_post'] ); 
 		 add_action( 'wp_ajax_importCSV', [$this,'importCSVprocAjax'] );
 		 $this->autaFields = new AutaFields($this->customPostType);
-		 if (PFEA_FORCE_CJ) $specialType="cj";
+		 if (Settings::loadSetting("isProductFeed")) $specialType="cj";
 		 if ($specialType=="cj") { 
 			 $this->isCj=true;
 			 $this->cj=new ComissionJunction(["postType" => $this->customPostType]); 
