@@ -8,7 +8,7 @@ class Settings {
     static private $settingsMap=[    
       "site"  => [            
             "currencyFormat" => ["default" => "$%1", "desc" => "currency format used for prices"],           
-            "isProductFeed" => ["default" => "0", "type" => "checkbox", "desc" => "special type of product feed"],
+            "isProductFeed" => ["default" => "0", "type" => "checkbox", "desc" => "special type for product feed"],
         ],      
     ];
 
