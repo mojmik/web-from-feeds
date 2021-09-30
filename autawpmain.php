@@ -15,8 +15,8 @@ define('PFEA_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define('PFEA_PLUGIN_FILE_URL', __FILE__);
 define('PFEA_SHORT_TITLE', 'CAF' );
 define('PFEA_TAB_PREFIX','mauta_');
+define('PFEA_TAB_SETTINGS',$wpdb->prefix.PFEA_TAB_PREFIX."plugin_settings");
 define('PFEA_LOAD_EXTERNAL_UI',false);
-define('PFEA_FORCE_CJ',true);
 define('PFEA_TEXTDOMAIN',"wpcustomajaxfilters");
 
 
