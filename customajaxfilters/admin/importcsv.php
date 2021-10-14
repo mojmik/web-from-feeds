@@ -401,21 +401,6 @@ class ImportCSV {
 		dbDelta( $sql );
 	}
 	
-
-	public function loadFileLoadData($file,$sep="^",$enc='"') {
-		//tohle nepude, protoze to je zakazany kvuli security
-		global $wpdb;
-		$query="LOAD DATA LOCAL INFILE '{$file}' INTO TABLE sas FIELDS TERMINATED BY '{$sep}' ENCLOSED BY '{$enc}'
-						IGNORE 1 LINES (@category,@temple) SET category = @category, temple = @temple;";
-		echo "<div style='position:absolute;top:100px;left:600px;'>".$query."</div>";
-						
-		$wpdb->query(
-                $wpdb->prepare(
-                        "LOAD DATA LOCAL INFILE '{$file}' INTO TABLE sas FIELDS TERMINATED BY '{$sep}' ENCLOSED BY '{$enc}' 
-						IGNORE 1 LINES (@category,@temple) SET category = @category, temple = @temple;"
-                )
-        );
-	}
 	public function gotUploadedFile() {
 		if(isset($_FILES['mfilecsv']) && ($_FILES['mfilecsv']['size'] > 0)) return true;
 		return false;

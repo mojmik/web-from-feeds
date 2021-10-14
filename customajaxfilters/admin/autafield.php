@@ -59,7 +59,7 @@ class AutaField {
 	 ?>
 	
 	 <form action='<?= remove_query_arg( 'do')?>' method='post' class='caf-editFieldRow'>	 	 	 
-			<div><div><label>name</label></div><input type='text' readonly='true' name='name' value='<?= $this->name?>' /></div>
+			<div style="display:none;"><div><label>name</label></div><input type='text' readonly='true' name='name' value='<?= $this->name?>' /></div>
 			<div><div><label>type</label></div><input type='text' name='type' value='<?= $this->type?>' /></div>
 			<div><div><label>compare</label></div><input type='text' name='compare' value='<?= $this->compare?>' /></div>
 			<div><div><label>options (split with ;)</label></div><input type='text' name='options' value='<?= $this->options?>' /></div>

@@ -175,21 +175,24 @@ jQuery(function($){
 	jQuery("form#mautaAddCSV").submit(function() {	
 		var doajax = $("input[name='doajax']").val();			
 		var csvtype = $("input[name='csvtype']").val();
+		let processCats=true;
+		if (csvtype=="csv") processCats=false;
 		var table = $("input[name='table']").val();
 		var totalRecords = $("input[name='totalRecords']").val();
 		for (n=0;n<Math.ceil(totalRecords/100);n++) {
 			runProcess(doajax,table,csvtype,n*100,(n+1)*100);
 		}
-		runProcess("createCats",table,csvtype);
+		if (processCats) {
+			runProcess("createCats",table,csvtype);
 		
-		runProcess("getCatsCnt",table,csvtype,0,50,function(data) {
-			//console.log(data.result);
-			for (n=0;n<Math.ceil(data.result/50);n++) {
-				runProcess("udpateCatsDesc2",table,csvtype,n*50,(n+1)*50);
-			}
-			mAutaAjax.requestStack.go();
-		});		
-		//runProcess("udpateCatsDesc",table,csvtype);		
+			runProcess("getCatsCnt",table,csvtype,0,50,function(data) {
+				//console.log(data.result);
+				for (n=0;n<Math.ceil(data.result/50);n++) {
+					runProcess("udpateCatsDesc2",table,csvtype,n*50,(n+1)*50);
+				}
+				mAutaAjax.requestStack.go();
+			});		
+		}
 
 		mAutaAjax.requestStack.go();
 	    return false;

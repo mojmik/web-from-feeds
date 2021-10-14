@@ -151,8 +151,7 @@ class AutaPlugin {
 		$singular=filter_input( INPUT_POST, "singular", FILTER_SANITIZE_STRING );  
 		$plural=filter_input( INPUT_POST, "plural", FILTER_SANITIZE_STRING );  						 				
 		$slug=filter_input( INPUT_POST, "slug", FILTER_SANITIZE_STRING );  		
-		//$specialType=(isset($_POST["specialType"])) ? "cj" : "";		
-		$specialType="cj";
+		$specialType=filter_input( INPUT_POST, "specialType", FILTER_SANITIZE_STRING );  
 		$tableType=(isset($_POST["tableType"])) ? "dedicated" : "";
 		//$mImgTools=(isset($_POST["mImgTools"])) ? "1" : "";
 		$mImgTools="";

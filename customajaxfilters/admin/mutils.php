@@ -79,4 +79,13 @@ class Mutils {
         } 
         return $field;
     }  
+
+    public static function optionsStringFromArray($options,$selected=false) {
+        $out="";        
+        foreach ($options as $o) {
+            if ($selected==$o[0]) $out="<option value={$o[0]}>{$o[1]}</option>".$out;
+            else $out.="<option value={$o[0]}>{$o[1]}</option>";
+        }
+        return $out;
+    }
 }
